@@ -1,0 +1,2139 @@
+.details_edit{
+    display: flex;
+    flex-direction: column;
+    margin-top:1rem;
+    padding:1rem;
+    width:100%;
+    background-color: #f7f5fa;
+    letter-spacing:1px;
+}
+.details_edit .edit_top{
+    display: flex;
+    color:#009092;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin:1rem 0;
+    width:100%;
+}
+.details_edit .edit_top p{
+    padding:0 0.2rem;
+}
+.details_edit .edit_top p::before{
+    display: inline-block;
+    padding-right: .5rem;
+    color: #6c757d;
+    content: "/";
+}
+/* edit middle left start */
+.details_edit .edit_middle{
+    display: flex;
+    width:100%;
+    margin:1rem 0;
+}
+.edit_middle .edit_middle_left{
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+    background-color: white;
+    width:50%;
+    border-radius:5px;
+}
+.edit_middle .edit_middle_left .left_title{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin: 1rem 0 2rem 0;
+}
+.edit_middle_left .middle_title{
+    display: flex;
+    color:#343a40;
+    border-bottom: 1px solid #343a40;
+    margin-bottom: 1rem
+}
+.edit_middle_left .middle_title p{
+    margin-left:0.5rem;
+    font-size: 1.2rem;
+    padding-bottom:1rem;
+}
+.edit_middle_left .middle_second{
+    display: flex;
+    margin-top:2rem;
+    width:100%;
+}
+.edit_middle_left .middle_second div{
+    width:50%;
+    justify-content: center;
+    align-items:center;
+    color:#343a40;
+}
+ .edit_middle_left .middle_second p
+ ,.middle_third p,
+ .middle_fourth p,
+ .middle_fifth p,
+ .middle_sixth .dates p
+ {
+    color: #75787d;
+    font-size: 0.9rem;
+    margin-bottom:1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    width:100%;
+}
+.edit_middle_left .middle_second .id input{
+    background-color: #f5f7fa;
+}
+.edit_middle_left .middle_second input,
+.middle_third input ,
+.middle_fifth input
+{
+    border-radius: 5px;
+    font-size: 1rem;
+    outline:none;
+    border: 1px solid #ced4da;
+    color: #75787d;    
+    padding:0.7rem;
+} 
+.edit_middle_left .middle_third{
+    display: flex;
+    width:100%;
+    margin-top:2rem;
+}
+
+.edit_middle_left .middle_third div{
+    width:50%;
+    justify-content: center;
+    align-items: start;
+    color:#7a9ab9;
+}
+
+.edit_middle_left .middle_third .version{
+    width:100%;
+}
+.edit_middle_left .middle_third .client_name{
+    width:100%;
+}
+.edit_middle_left .middle_third .client_name .MuiFormControl-root {
+    /* margin-top:1rem; */
+    width:100%;
+}
+.edit_middle_left .middle_third .client_name p{
+    margin-bottom:1rem;
+}
+.edit_middle_left .middle_fourth{
+    display: flex;
+    width:100%;
+    margin-top:2rem;
+}
+.edit_middle_left .middle_fourth div{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+}
+.edit_middle_left .middle_fourth .first .MuiFormControl-root ,
+.middle_fourth .assigned_group .MuiFormControl-root{
+    margin: 0;
+    margin-left: 1rem;
+    width:80%;
+}
+.edit_middle_left .middle_fifth{
+    display: flex;
+    width:100%;
+    margin:2rem 0;
+}
+.edit_middle_left .middle_fifth .assign_to{
+    width:50%;
+    flex: 1;
+}
+.edit_middle_left .middle_fifth .demo_url{
+    width:50%;
+}
+.edit_middle_left .middle_fifth .MuiSelect-select.MuiSelect-select {
+    font-size: 1rem;
+    padding-right:0;
+}
+.edit_middle_left .middle_fifth .makeStyles-formControl-4 {
+   margin:0;
+    width:50%;
+}
+.edit_middle_left .middle_fifth .makeStyles-formControl-3 {
+    margin:0;
+}
+.edit_middle_left .middle_sixth{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.edit_middle_left .middle_sixth .projects_dates{
+    display: flex;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    padding-bottom:1rem;
+    border-bottom: 1px solid black;
+}
+.edit_middle_left .middle_sixth .projects_dates p{
+    margin-left: 1rem;
+}
+.edit_middle_left .middle_sixth .dates{
+    display: flex;
+}
+.edit_middle_left .middle_sixth .dates .start_date{
+    margin-right:1rem;
+    width:50%;
+}
+.edit_middle_left .middle_sixth .dates .end_date{
+    width:50%;
+}
+/* middle left end */
+
+/* middle right start */
+ .edit_middle .edit_middle_right{
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+    margin:0 0.5rem;
+    background-color: white;
+    width:50%;
+    border-radius:5px;
+}
+.edit_middle .edit_middle_right .other_info{
+    width:100%;
+    display: flex;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 4.7rem;
+    border-bottom: 1px solid black;
+    /* color: #75787d;  */
+    color:#343a40;
+}
+.edit_middle .edit_middle_right .other_info p{
+    margin-left:0.5rem;
+    font-size: 1.2rem;
+}
+.edit_middle .edit_middle_right .billing_hours{
+    display: flex;
+    margin-top: 2rem;
+}
+.edit_middle .edit_middle_right .billing_hours div{
+    width:100%;
+}
+.edit_middle .edit_middle_right .billing_hours p
+{
+    color: #75787d;
+    font-size: 0.9rem;
+    margin-bottom:1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    width:100%;
+}
+.edit_middle .edit_middle_right .billing_hours .billing{
+    width:50%;
+}
+.edit_middle .edit_middle_right .billing_hours .hours{
+    width:50%;
+    margin-left: 1rem;
+}
+.edit_middle .edit_middle_right .billing_hours .hours input,
+.edit_middle .edit_middle_right .estimate input
+{
+    border-radius: 5px;
+    font-size: 1rem;
+    outline:none;
+    border: 1px solid #ced4da;
+    color: #75787d;    
+    padding:0.7rem;
+    width: 100%;
+}
+.edit_middle .edit_middle_right .estimate{
+    width:100%;
+    margin-top: 2rem;
+    display: flex;
+}
+.edit_middle .edit_middle_right .estimate p{
+    color: #75787d;
+    font-size: 0.9rem;
+    margin-bottom:1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    width:100%;
+}
+.edit_middle .edit_middle_right .estimate .estimate_hours{
+    width:50%;
+    margin-right: 1rem;
+}
+.edit_middle .edit_middle_right .estimate .progress{
+    width:50%;
+}
+.edit_middle .edit_middle_right .project_logo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.edit_middle .edit_middle_right .project_logo p:nth-child(1){
+     color: #75787d;
+    font-size: 0.9rem;
+    margin-bottom:1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    width:100%;
+}
+.edit_middle .edit_middle_right .project_logo p:nth-child(2){
+    text-align: center;
+    align-items: center;
+    border:2px solid black;
+    font-size: 1.3rem;
+    border-style: dashed;
+    padding:3rem;
+}   
+/* edit_middle end */
+/* edit_bottom start */
+.edit_bottom {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem ;
+    background-color: white;
+}
+.edit_bottom .custom_field{
+    display: flex;
+    margin: 1rem 0;
+    padding-bottom: 1rem;
+    color:#343a40;
+    border-bottom: 1px solid black;
+}
+.edit_bottom .custom_field p{
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+}
+.edit_bottom .milestone_main{
+    display: flex;
+    margin-top: 1rem;
+    width:100%;
+}
+.edit_bottom .milestone_main .milestone{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin-right: 1rem;
+}
+
+.edit_bottom .milestone_target{
+    display: flex;
+    flex-direction: column;
+    width:25%;
+}
+.edit_bottom .milestone_main .milestone .mile_first,
+.milestone_main .milestone_target .mile_second{
+    display: flex;
+}
+.edit_bottom .milestone_main .milestone .mile_first p,
+.milestone_main .milestone_target .mile_second p{
+     color: #75787d;
+    font-size: 0.9rem;
+    margin-bottom:1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.edit_bottom .milestone_main .milestone input{
+    border-radius: 5px;
+    font-size: 1rem;
+    outline:none;
+    border: 1px solid #ced4da;
+    color: #75787d;    
+    padding:1.1rem;
+}
+.edit_bottom .projectz{
+    display: flex;
+    flex-direction: column;
+    margin:1rem 0;
+    width:50%;
+}
+.edit_bottom .projectz_top{
+    display: flex;
+    margin-bottom:1rem;
+}
+.edit_bottom .projectz_top p{
+    color: #75787d;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+.edit_bottom .projectz input{
+    border-radius: 5px;
+    font-size: 1rem;
+    outline:none;
+    border: 1px solid #ced4da;
+    color: #75787d;    
+    padding:1.1rem;
+}
+.edit_bottom .description{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin-top:1rem;
+}
+.edit_bottom .description .desc_title{
+    display: flex;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 1rem;
+    width:100%;
+}
+.edit_bottom .description .desc_title p{
+    color:#343a40;
+    font-size: 1.2rem;
+    padding-left:0.5rem;
+}
+.edit_bottom .description textarea{
+    margin: 1rem 0;
+    align-items: flex-start;
+    font-size: 1rem;
+    color: #75787d;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+.edit_bottom .custom_buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1rem 0;
+    width:100%;
+}
+.edit_bottom .custom_buttons button{
+    padding:1rem 3rem;
+    font-size: 1rem;
+    outline: none;
+    border:1px solid #75787d;
+    border-radius: 25px;
+    margin-right: 1rem;
+    color:white;
+    box-shadow: 0 6px 0 0 rgb(0 0 0 / 1%), 0 15px 32px 0 rgb(0 0 0 / 6%);
+}
+
+.edit_bottom .custom_buttons button:nth-child(1){
+    background: linear-gradient(#e66465, #9198e5);
+}
+.edit_bottom .custom_buttons button:nth-child(2){
+    background-image: linear-gradient(to right,#31c69c 0,#34a853 51%,#31c69c 100%);
+   }
+/* edit bottom end */
+/* @ Respnsive  */
+@media only screen and (max-device-width:280px){
+    .details_edit{
+        width:100%;
+    }
+    .details_edit .edit_top{
+        width:100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .details_edit .edit_middle{
+        flex-direction: column;
+        width:100%;
+    }
+    .edit_middle .edit_middle_left{
+        width:100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .edit_middle .edit_middle_left .left_title{
+      width:100%;
+     text-align: center;
+    }
+    .edit_middle .edit_middle_left .middle_title{
+        width:100%;
+        justify-content: center;
+    }   
+    .edit_middle_left .middle_second{
+        flex-direction: column;
+        margin-top:1rem;
+        width:100%;
+    }
+    .edit_middle_left .middle_second .id{
+        width:100%;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    .edit_middle_left .middle_second .project_name{
+        width:100%;
+        align-items: center;
+    }    
+    .edit_middle_left .middle_third{
+        flex-direction: column;
+        width:100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_third div{
+        width:100%;
+        align-items: center;
+    }
+    .edit_middle_left .middle_third .version{
+        margin-bottom: 1rem;
+    }
+    .edit_middle_left .middle_third .client_name{
+        width:100%;
+    }   
+    .edit_middle_left .middle_fourth{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .edit_middle_left .middle_fourth div{
+        width:100%;
+        align-items: center;
+    }
+    .edit_middle_left .middle_fourth .first{
+        margin-bottom: 1rem;
+    }
+    .edit_middle_left .middle_fourth .first .MuiFormControl-root ,
+    .middle_fourth .assigned_group .MuiFormControl-root{
+        margin: 0;
+        width:80%;
+    }
+    
+.edit_middle_left .middle_fifth{
+    flex-direction: column;
+    width:100%;
+    margin:1rem 0;
+}
+.edit_middle_left .middle_fifth div{
+    width:100%;
+}
+.edit_middle_left .middle_fifth .makeStyles-formControl-3 {
+    margin:0;
+}
+.edit_middle_left .middle_fifth .assign_to{
+    width:100%;
+    flex: 1;
+}
+.edit_middle_left .middle_fifth .demo_url{
+    margin-top: 1rem;
+}
+.edit_middle_left .middle_sixth{
+    margin: 1rem 0; 
+    display: flex;
+    flex-direction: column;
+}
+.edit_middle_left .middle_sixth .dates{
+    flex-direction: column;
+}
+.edit_middle_left .middle_sixth .dates .start_date{
+    width:100%;
+}
+.edit_middle_left .middle_sixth .dates .end_date{
+    margin-top: 1rem;
+    width:100%;
+}
+    .edit_middle .edit_middle_right{
+        width:100%;
+        margin-top: 1rem;
+    }
+    /* edit middle right start */
+    .edit_middle .edit_middle_right{
+        padding:1rem;
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .other_info{
+        width:100%;
+        justify-content:center;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+        
+    .edit_middle .edit_middle_right .billing_hours{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours input{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .billing{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .hours{
+        width:100%;
+        margin-top: 1rem;
+    }
+
+    .edit_middle .edit_middle_right .estimate{
+        width:100%;
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+    .edit_middle .edit_middle_right .estimate p{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate .estimate_hours{
+        width:100%;
+    }
+
+    .edit_middle .edit_middle_right .estimate .progress{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .project_logo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(1){
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(2){
+        font-size: 1rem;
+        padding:1rem;
+    }
+    /* edit middle end */
+    /* edit_bottom start */
+    .edit_bottom {
+        width:100%;
+    }
+    .edit_bottom .custom_field{
+        justify-content: center;
+    }
+    .edit_bottom .custom_field p{
+        font-size: 1.2rem;
+        margin-left: 0.5rem;
+    }
+    .edit_bottom .milestone_main{
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+    }
+    .edit_bottom .milestone_main .milestone{
+        width:100%;
+    }
+    .edit_bottom .milestone_target{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .edit_bottom .projectz{
+        width:100%;
+    }
+    .edit_bottom .projectz_top{
+        justify-content: flex-start;
+        align-items:center;
+        width:100%;
+    }
+    .edit_bottom .description{
+        width:100%;
+        justify-content:center;
+        align-items:center;
+    }
+    .edit_bottom .description .desc_title{
+        justify-content:center;
+    } 
+    .edit_bottom .custom_buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+    .edit_bottom .custom_buttons button{
+        margin-bottom: 1rem;
+    }
+    /* edit bottom end */
+}
+@media only screen and (min-device-width:281px)and (max-device-width:320px){
+    .details_edit{
+        width:100%;
+        text-align: center;
+    }
+    .details_edit .edit_top{
+        width:100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .details_edit .edit_middle{
+        flex-direction: column;
+        width:100%;
+    }
+    .edit_middle .edit_middle_left{
+        width:100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .edit_middle .edit_middle_left .left_title{
+      width:100%;
+     text-align: center;
+    }
+    .edit_middle .edit_middle_left .middle_title{
+        width:100%;
+        justify-content: center;
+    }   
+    .edit_middle_left .middle_second{
+        flex-direction: column;
+        margin-top:1rem;
+        width:100%;
+    }
+    .edit_middle_left .middle_second .id input ,
+    .middle_second .project_name input{
+        width:100%;
+        align-items: center;
+    }
+    .edit_middle_left .middle_second .id{
+        width:100%;
+        margin-bottom: 1rem;
+    }
+    .edit_middle_left .middle_second .project_name{
+        width:100%;
+    }    
+    .edit_middle_left .middle_third{
+        flex-direction: column;
+        width:100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_third div{
+        width:100%;
+        align-items: center;
+    }
+    .edit_middle_left .middle_third .version input,
+    .edit_middle_left .middle_third .client_name input{
+      width:100%;  
+    }
+    .edit_middle_left .middle_third .version{
+        width:100%;
+        margin-bottom: 1rem;
+    }
+    .edit_middle_left .middle_third .client_name{
+        width:100%;
+    }   
+    .edit_middle_left .middle_third .client_name .MuiFormControl-root {
+            width:100%;
+    }
+    .edit_middle_left .middle_fourth{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .edit_middle_left .middle_fourth div{
+        width:100%;
+        align-items: center;
+    }
+    .edit_middle_left .middle_fourth .first{
+        width:100%;
+        margin-bottom: 1rem;
+    }
+    .edit_middle_left .middle_fourth .assigned_group{
+        width:100%;
+    }
+    .edit_middle_left .middle_fourth .first .MuiFormControl-root ,
+    .middle_fourth .assigned_group .MuiFormControl-root{
+        margin: 0;
+        width:80%;
+    }
+    .edit_middle_left .middle_fifth{
+        flex-direction: column;
+        width:100%;
+        margin:1rem 0;
+    }
+    .edit_middle_left .middle_fifth div{
+        width:100%
+    }
+    .edit_middle_left .middle_fifth .makeStyles-formControl-3 {
+        margin:0;
+    }
+    .edit_middle_left .middle_fifth .assign_to{
+        width:100%;
+    }
+    .edit_middle_left .middle_fifth .demo_url{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .edit_middle_left .middle_fifth .demo_url input{
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth{
+        width:100%;
+        margin: 1rem 0; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .edit_middle_left .middle_sixth .projects_dates{
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates{
+        width:100%;
+        flex-direction: column;
+    }
+    .edit_middle_left .middle_sixth .dates .start_date{
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates .end_date{
+        margin-top: 1rem;
+        width:100%;
+    }
+    /* edit middle right start */
+    .edit_middle .edit_middle_right{
+        padding:1rem;
+        width:100%;
+        margin:0;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .other_info{
+        width:100%;
+        justify-content:center;
+        padding-bottom: 1rem;
+        margin: 1rem 0;
+    }
+    .edit_middle .edit_middle_right .billing_hours{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours div{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .billing{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .hours{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours .hours input{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate{
+        width:100%;
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+    .edit_middle .edit_middle_right .estimate p{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate input{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate .estimate_hours{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate .progress{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .project_logo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(1){
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(2){
+        font-size: 1rem;
+        padding:1rem;
+    }
+    /* edit middle end */
+    /* edit_bottom start */
+    .edit_bottom {
+        width:100%;
+    }
+    .edit_bottom .custom_field{
+        justify-content: center;
+        width:100%;
+    }
+    .edit_bottom .custom_field p{
+        font-size: 1.2rem;
+        margin-left: 0.5rem;
+    }
+    .edit_bottom .milestone_main{
+        flex-direction: column;
+        justify-content: center;
+        width:100%;
+    }
+    .edit_bottom .milestone_main .milestone{
+        width:100%;
+    }
+    .edit_bottom .milestone_main .milestone .mile_first,
+    .edit_bottom .milestone_main .milestone_target .mile_second,
+    .edit_bottom .projectz .projectz_top{
+        width:100%;
+        justify-content: center;
+    }
+    .edit_bottom .milestone_target{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .edit_bottom .projectz{
+        width:100%;
+    }
+    .edit_bottom .projectz_top{
+        justify-content: flex-start;
+        align-items:center;
+        width:100%;
+    }
+    .edit_bottom .description{
+        width:100%;
+        justify-content:center;
+        align-items:center;
+    }
+    .edit_bottom .description .desc_title{
+        justify-content:center;
+    } 
+    .edit_bottom .custom_buttons{
+        flex-direction: column;
+        align-items: center;
+    }
+    .edit_bottom .custom_buttons button{
+        margin-bottom: 1rem;
+    }
+    /* edit bottom end */
+}
+@media only screen and (min-device-width:321px)and (max-device-width:480px){
+    .details_edit{
+        width:100%;
+    }
+    .details_edit .edit_top{
+        justify-content: center;
+        align-items: center;
+    }   
+    .details_edit .edit_top p{
+        padding:0 0.2rem;
+        font-size: 1.5rem;
+    }
+/* edit middle left start */
+    .details_edit .edit_middle{
+        flex-direction: column;
+        align-items: center;
+        width:100%; 
+    }
+    .edit_middle .edit_middle_left{
+        width:100%;
+    }
+    .edit_middle .edit_middle_left .left_title{
+        font-size: 1.5rem;
+    }
+    .edit_middle .edit_middle_left .middle_title{
+        width:100%;
+    }
+    .edit_middle .edit_middle_left .middle_title p{
+        font-size: 1.4rem;
+    }
+    .edit_middle_left .middle_second{
+        flex-direction: column;
+        width:100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_second div{
+        width:100%;
+    }
+    .edit_middle_left .middle_second .project_name{
+        margin-top: 1rem;
+    }
+    .edit_middle_left .middle_second p
+        ,.middle_third p,
+        .middle_fourth p,
+        .middle_fifth p,
+        .middle_sixth .dates p
+        {font-size: 1rem;}
+    .edit_middle_left .middle_second input,
+    .middle_third input ,
+    .middle_fifth input
+    {
+        padding:1rem;
+        width:100%;
+    }
+    .edit_middle_left .middle_third{
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_third .client_name{
+        width:100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_third div{
+        width:100%;
+    }
+    
+    .edit_middle_left .middle_fourth{
+        flex-direction: column;
+        width:100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_fourth div{
+        width:100%;
+    }
+    .edit_middle_left .middle_fourth .first
+    {
+        width:100%;
+    }
+    .edit_middle_left .middle_fourth .assigned_group
+    {
+        width: 100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_fourth .first .MuiFormControl-root ,
+    .middle_fourth .assigned_group .MuiFormControl-root{
+        margin: 0;
+        margin-left: 1rem;
+        width: 75%;
+    }
+    .edit_middle_left .middle_fifth{
+        flex-direction: column;
+        width:100%;
+        margin:1rem 0;
+    }
+    .edit_middle_left .middle_fifth .makeStyles-formControl-3 {
+        margin:0;
+        width:85%;
+    }
+    .edit_middle_left .middle_fifth .assign_to{
+        width:100%;
+    }
+    .edit_middle_left .middle_fifth .demo_url{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .edit_middle_left .middle_sixth{
+        width:100%;
+        margin: 1rem 0; 
+    }
+    .edit_middle_left .middle_sixth .projects_dates{
+        justify-content: flex-start;
+        align-items: center;
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates{
+        width:100%;
+        flex-direction: column;
+    }
+    .edit_middle_left .middle_sixth .dates .start_date{
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates .end_date{
+        margin-top: 1rem;
+        width:100%;
+    }
+    
+    /* edit middle right start */
+    .edit_middle .edit_middle_right{
+        padding:1rem;
+        width:100%;
+        margin:0;
+        margin-top: 1rem;
+        text-align: start;
+    }
+    .edit_middle .edit_middle_right .other_info{
+        width:100%;
+        justify-content:flex-start;
+        align-items:center;
+        padding-bottom: 1rem;
+        margin: 1rem 0;
+    }
+    .edit_middle .edit_middle_right .other_info p{
+        font-size: 1.3rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours p,
+    .edit_middle .edit_middle_right .estimate p,
+    .edit_middle .edit_middle_right .project_logo p:nth-child(1)
+    {
+        font-size: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours div{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .billing{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .hours{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours .hours input{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate{
+        width:100%;
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+    .edit_middle .edit_middle_right .estimate p{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate input{
+        width:100%;
+    }
+    
+    .edit_middle .edit_middle_right .estimate .estimate_hours{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate .progress{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .project_logo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(1){
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(2){
+        font-size: 1rem;
+        padding:1rem;
+    }
+    /* edit middle end */
+    /* edit_bottom start */
+    .edit_bottom {
+        width:100%;
+    }
+    .edit_bottom .custom_field{
+        justify-content:flex-start;
+        align-items: center;
+        width:100%;
+    }
+    .edit_bottom .custom_field p{
+        font-size: 1.3rem;
+        margin-left: 0.5rem;
+    }
+    .edit_bottom .milestone_main{
+        flex-direction: column;
+        width:100%;
+    }
+    .edit_bottom .milestone_main .milestone{
+        width:100%;
+    }
+    .edit_bottom .milestone_main .milestone .mile_first,
+    .edit_bottom .milestone_main .milestone_target .mile_second,
+    .edit_bottom .projectz .projectz_top{
+        width:100%;
+        justify-content: flex-start;
+    }
+    .edit_bottom .milestone_main .milestone .mile_first p,
+    .edit_bottom .milestone_main .milestone_target .mile_second p,
+    .edit_bottom .projectz .projectz_top p
+    {
+        font-size: 1rem;
+    }
+    .edit_bottom .milestone_target{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .edit_bottom .projectz{
+        width:100%;
+    }
+    .edit_bottom .projectz_top{
+        justify-content: flex-start;
+        align-items:center;
+        width:100%;
+    }
+    .edit_bottom .description{
+        width:100%;
+        justify-content:center;
+        align-items:center;
+    }
+    .edit_bottom .description .desc_title{
+        justify-content:flex-start;
+        align-items:center;
+    } 
+    .edit_bottom .custom_buttons{
+        align-items: center;
+    }
+    /* edit bottom end */
+    
+}
+@media only screen and (min-device-width:481px)and (max-device-width:640px){
+    .details_edit{
+        width:100%;
+    }
+    .details_edit .edit_top{
+        justify-content: flex-start;
+        align-items: center;
+    }   
+    .details_edit .edit_top p{
+        padding:0 0.2rem;
+        font-size: 1.5rem;
+    }
+/* edit middle left start */
+    .details_edit .edit_middle{
+        flex-direction: column;
+        align-items: center;
+        width:100%; 
+    }
+    .edit_middle .edit_middle_left{
+        width:100%;
+    }
+    .edit_middle .edit_middle_left .left_title{
+        font-size: 1.5rem;
+    }
+    .edit_middle .edit_middle_left .middle_title{
+        width:100%;
+    }
+    .edit_middle .edit_middle_left .middle_title p{
+        font-size: 1.4rem;
+    }
+    .edit_middle_left .middle_second{
+        width:100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_second .project_name{
+        margin-left: 1rem;
+    }
+    .edit_middle_left .middle_second p
+        ,.middle_third p,
+        .middle_fourth p,
+        .middle_fifth p,
+        .middle_sixth .dates p
+        {font-size: 1rem;}
+    .edit_middle_left .middle_second input,
+    .middle_third input ,
+    .middle_fifth input
+    {
+        padding:1rem;
+        width:100%;
+    }
+    .edit_middle_left .middle_third{
+        width:100%;
+        justify-content: center;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_third .client_name{
+        width:100%;
+        margin-left: 1rem;
+    }
+    .edit_middle_left .middle_third div{
+        width:100%;
+    }
+    .edit_middle_left .middle_second input,
+     .middle_third input,
+     .middle_fifth input 
+     {
+        padding:0.7rem;
+     }
+    .edit_middle_left .middle_fourth{
+        width:100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_fourth div{
+        width:100%;
+    }
+    .edit_middle_left .middle_fourth .first
+    {
+        width:100%;
+    }
+    .edit_middle_left .middle_fourth .assigned_group
+    {
+        margin-left: 1rem;
+        width: 100%;
+    }
+    .edit_middle_left .middle_fourth .first .MuiFormControl-root ,
+    .middle_fourth .assigned_group .MuiFormControl-root{
+        margin: 0;
+        margin-left: 1rem;
+        width: 87%;
+    }
+    .edit_middle_left .middle_fifth{
+        width:100%;
+        margin:1rem 0;
+    }
+    .edit_middle_left .middle_fifth .makeStyles-formControl-3 {
+        margin:0;
+        width:87%;
+    }
+    .edit_middle_left .middle_fifth .assign_to{
+        width:50%;
+    }
+    .edit_middle_left .middle_fifth .demo_url{
+        width:50%;
+    }
+    .edit_middle_left .middle_sixth{
+        width:100%;
+        margin: 1rem 0; 
+    }
+    .edit_middle_left .middle_sixth .projects_dates{
+        justify-content: flex-start;
+        align-items: center;
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates{
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates .start_date{
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates .end_date{
+        width:100%;
+    }
+    /* edit middle right start */
+    .edit_middle .edit_middle_right{
+        padding:1rem;
+        width:100%;
+        margin:0;
+        margin-top: 1rem;
+        text-align: start;
+    }
+    .edit_middle .edit_middle_right .other_info{
+        width:100%;
+        justify-content:flex-start;
+        align-items:center;
+        padding-bottom: 1rem;
+        margin: 1rem 0;
+    }
+    .edit_middle .edit_middle_right .other_info p{
+        font-size: 1.3rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours p,
+    .edit_middle .edit_middle_right .estimate p,
+    .edit_middle .edit_middle_right .project_logo p:nth-child(1)
+    {
+        font-size: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours div{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .billing{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .hours{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours .hours input{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate{
+        width:100%;
+        margin-top: 1rem;
+        flex-direction: column;
+    }
+    .edit_middle .edit_middle_right .estimate p{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate input{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate .estimate_hours{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate .progress{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .project_logo{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(1){
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(2){
+        font-size: 1rem;
+        padding:1rem;
+    }
+    /* edit middle end */
+    /* edit_bottom start */
+    .edit_bottom {
+        width:100%;
+    }
+    .edit_bottom .custom_field{
+        justify-content:flex-start;
+        align-items: center;
+        width:100%;
+    }
+    .edit_bottom .custom_field p{
+        font-size: 1.3rem;
+        margin-left: 0.5rem;
+    }
+    .edit_bottom .milestone_main{
+        flex-direction: column;
+        width:100%;
+    }
+    .edit_bottom .milestone_main .milestone{
+        width:100%;
+    }
+    .edit_bottom .milestone_main .milestone .mile_first,
+    .edit_bottom .milestone_main .milestone_target .mile_second,
+    .edit_bottom .projectz .projectz_top{
+        width:100%;
+        justify-content: flex-start;
+    }
+    .edit_bottom .milestone_main .milestone .mile_first p,
+    .edit_bottom .milestone_main .milestone_target .mile_second p,
+    .edit_bottom .projectz .projectz_top p
+    {
+        font-size: 1rem;
+    }
+    .edit_bottom .milestone_target{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .edit_bottom .projectz{
+        width:100%;
+    }
+    .edit_bottom .projectz_top{
+        justify-content: flex-start;
+        align-items:center;
+        width:100%;
+    }
+    .edit_bottom .description{
+        width:100%;
+        justify-content:center;
+        align-items:center;
+    }
+    .edit_bottom .description .desc_title{
+        justify-content:flex-start;
+        align-items:center;
+    } 
+    .edit_bottom .custom_buttons{
+        align-items: center;
+    }
+    /* edit bottom end */
+    
+}
+@media only screen and (min-device-width:641px)and (max-device-width:812px){
+    .details_edit{
+        width:100%;
+    }
+    .details_edit .edit_top{
+        justify-content: flex-start;
+        align-items: center;
+    }   
+    .details_edit .edit_top p{
+        padding:0 0.2rem;
+        font-size: 1.5rem;
+    }
+/* edit middle left start */
+    .details_edit .edit_middle{
+        flex-direction: column;
+        align-items: center;
+        width:100%; 
+    }
+    .edit_middle .edit_middle_left{
+        width:100%;
+    }
+    .edit_middle .edit_middle_left .left_title{
+        font-size: 1.5rem;
+    }
+    .edit_middle .edit_middle_left .middle_title{
+        width:100%;
+    }
+    .edit_middle .edit_middle_left .middle_title p{
+        font-size: 1.4rem;
+    }
+    .edit_middle_left .middle_second{
+        width:100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_second .project_name{
+        margin-left: 1rem;
+    }
+    .edit_middle_left .middle_second p
+        ,.middle_third p,
+        .middle_fourth p,
+        .middle_fifth p,
+        .middle_sixth .dates p
+        {font-size: 1rem;}
+    .edit_middle_left .middle_second input,
+    .middle_third input ,
+    .middle_fifth input
+    {
+        padding:1rem;
+        width:100%;
+    }
+    .edit_middle_left .middle_third{
+        width:100%;
+        justify-content: center;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_third .client_name{
+        width:100%;
+        margin-left: 1rem;
+    }
+    .edit_middle_left .middle_third div{
+        width:100%;
+    }
+    .edit_middle_left .middle_second input,
+     .middle_third input,
+     .middle_fifth input 
+     {
+        padding:0.7rem;
+     }
+    .edit_middle_left .middle_fourth{
+        width:100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_fourth div{
+        width:100%;
+    }
+    .edit_middle_left .middle_fourth .first
+    {
+        width:100%;
+    }
+    .edit_middle_left .middle_fourth .assigned_group
+    {
+        margin-left: 1rem;
+        width: 100%;
+    }
+    .edit_middle_left .middle_fourth .first .MuiFormControl-root ,
+    .middle_fourth .assigned_group .MuiFormControl-root{
+        margin: 0;
+        margin-left: 1rem;
+        width: 87%;
+    }
+    .edit_middle_left .middle_fifth{
+        width:100%;
+        margin:1rem 0;
+    }
+    .edit_middle_left .middle_fifth .makeStyles-formControl-3 {
+        margin:0;
+        width:87%;
+    }
+    .edit_middle_left .middle_fifth .assign_to{
+        width:50%;
+    }
+    .edit_middle_left .middle_fifth .demo_url{
+        width:50%;
+    }
+    .edit_middle_left .middle_sixth{
+        width:100%;
+        margin: 1rem 0; 
+    }
+    .edit_middle_left .middle_sixth .projects_dates{
+        justify-content: flex-start;
+        align-items: center;
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates{
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates .start_date{
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates .end_date{
+        width:100%;
+    }
+    /* edit middle right start */
+    .edit_middle .edit_middle_right{
+        padding:1rem;
+        width:100%;
+        margin:0;
+        margin-top: 1rem;
+        text-align: start;
+    }
+    .edit_middle .edit_middle_right .other_info{
+        width:100%;
+        justify-content:flex-start;
+        align-items:center;
+        padding-bottom: 1rem;
+        margin: 1rem 0;
+    }
+    .edit_middle .edit_middle_right .other_info p{
+        font-size: 1.3rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours p,
+    .edit_middle .edit_middle_right .estimate p,
+    .edit_middle .edit_middle_right .project_logo p:nth-child(1)
+    {
+        font-size: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours{
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours div{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .billing{
+        width:100%;
+        margin-right: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours .hours{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .hours input{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .estimate p{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate input{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate .estimate_hours1{
+        width:50%;
+    }
+    .edit_middle .edit_middle_right .estimate .progress{
+        width:50%;
+    }
+    .edit_middle .edit_middle_right .project_logo{
+        display: flex;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(1){
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(2){
+        font-size: 1rem;
+        padding:1rem;
+    }
+    /* edit middle end */
+    /* edit_bottom start */
+    .edit_bottom {
+        width:100%;
+    }
+    .edit_bottom .custom_field{
+        justify-content:flex-start;
+        align-items: center;
+        width:100%;
+    }
+    .edit_bottom .custom_field p{
+        font-size: 1.3rem;
+        margin-left: 0.5rem;
+    }
+    .edit_bottom .milestone_main{
+        width:100%;
+    }
+    .edit_bottom .milestone_main .milestone{
+        width:100%;
+    }
+    .edit_bottom .milestone_main .milestone .mile_first,
+    .edit_bottom .milestone_main .milestone_target .mile_second,
+    .edit_bottom .projectz .projectz_top{
+        width:100%;
+        justify-content: flex-start;
+    }
+    .edit_bottom .milestone_main .milestone .mile_first p,
+    .edit_bottom .milestone_main .milestone_target .mile_second p,
+    .edit_bottom .projectz .projectz_top p
+    {
+        font-size: 1rem;
+    }
+    .edit_bottom .milestone_target{
+        width:100%;
+    }
+    .edit_bottom .projectz{
+        width:100%;
+    }
+    .edit_bottom .projectz_top{
+        justify-content: flex-start;
+        align-items:center;
+        width:100%;
+    }
+    .edit_bottom .description{
+        width:100%;
+        justify-content:center;
+        align-items:center;
+    }
+    .edit_bottom .description .desc_title{
+        justify-content:flex-start;
+        align-items:center;
+    } 
+    .edit_bottom .custom_buttons{
+        align-items: center;
+    }
+    /* edit bottom end */
+    
+}
+
+@media only screen and (min-device-width:813px)and (max-device-width:1024px){
+    .details_edit{
+        width:100%;
+    }
+    .details_edit .edit_top{
+        justify-content: flex-start;
+        align-items: center;
+    }   
+    .details_edit .edit_top p{
+        padding:0 0.2rem;
+        font-size: 1.5rem;
+    }
+/* edit middle left start */
+    .details_edit .edit_middle{
+        justify-content: center;
+        width:100%; 
+    }
+    .edit_middle .edit_middle_left{
+        width:100%;
+        margin-right: 1rem;
+    }
+    .edit_middle .edit_middle_left .left_title{
+        font-size: 1.5rem;
+    }
+    .edit_middle .edit_middle_left .middle_title{
+        width:100%;
+    }
+    .edit_middle .edit_middle_left .middle_title p{
+        font-size: 1.4rem;
+    }
+    .edit_middle_left .middle_second{
+        width:100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_second .project_name{
+        margin-left: 1rem;
+    }
+    .edit_middle_left .middle_second p
+        ,.middle_third p,
+        .middle_fourth p,
+        .middle_fifth p,
+        .middle_sixth .dates p
+        {font-size: 1rem;}
+    .edit_middle_left .middle_second input,
+    .middle_third input ,
+    .middle_fifth input
+    {
+        padding:1rem;
+        width:100%;
+    }
+    .edit_middle_left .middle_third{
+        width:100%;
+        justify-content: center;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_third .client_name{
+        width:100%;
+        margin-left: 1rem;
+    }
+    .edit_middle_left .middle_third div{
+        width:100%;
+    }
+    .edit_middle_left .middle_second input,
+     .middle_third input,
+     .middle_fifth input 
+     {
+        padding:0.7rem;
+     }
+    .edit_middle_left .middle_fourth{
+        width:100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_fourth div{
+        width:100%;
+    }
+    .edit_middle_left .middle_fourth .first
+    {
+        width:100%;
+    }
+    .edit_middle_left .middle_fourth .assigned_group
+    {
+        margin-left: 1rem;
+        width: 100%;
+    }
+    .edit_middle_left .middle_fourth .first .MuiFormControl-root ,
+    .middle_fourth .assigned_group .MuiFormControl-root{
+        margin: 0;
+        margin-left: 1rem;
+        width: 87%;
+    }
+    .edit_middle_left .middle_fifth{
+        width:100%;
+        margin:1rem 0;
+    }
+    .edit_middle_left .middle_fifth .makeStyles-formControl-3 {
+        margin:0;
+        width:87%;
+    }
+    .edit_middle_left .middle_fifth .assign_to{
+        width:50%;
+    }
+    .edit_middle_left .middle_fifth .demo_url{
+        width:50%;
+    }
+    .edit_middle_left .middle_sixth{
+        width:100%;
+        margin: 1rem 0; 
+    }
+    .edit_middle_left .middle_sixth .projects_dates{
+        justify-content: flex-start;
+        align-items: center;
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates{
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates .start_date{
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates .end_date{
+        width:100%;
+    }
+    /* edit middle right start */
+    .edit_middle .edit_middle_right{
+        padding:1rem;
+        width:100%;
+        margin:0;
+        text-align: start;
+    }
+    .edit_middle .edit_middle_right .other_info{
+        width:100%;
+        justify-content:flex-start;
+        align-items:center;
+        padding-bottom: 1rem;
+        margin:0;
+        margin-top: 5rem;
+    }
+    .edit_middle .edit_middle_right .other_info p{
+        font-size: 1.3rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours p,
+    .edit_middle .edit_middle_right .estimate p,
+    .edit_middle .edit_middle_right .project_logo p:nth-child(1)
+    {
+        font-size: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours{
+        margin-top: 2rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours div{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .billing{
+        width:100%;
+        margin-right: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours .hours{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .hours input{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .estimate p{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate input{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate .estimate_hours1{
+        width:50%;
+    }
+    .edit_middle .edit_middle_right .estimate .progress{
+        width:50%;
+    }
+    .edit_middle .edit_middle_right .project_logo{
+        display: flex;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(1){
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(2){
+        font-size: 1rem;
+        padding:1rem;
+    }
+    /* edit middle end */
+    /* edit_bottom start */
+    .edit_bottom {
+        width:100%;
+    }
+    .edit_bottom .custom_field{
+        justify-content:flex-start;
+        align-items: center;
+        width:100%;
+    }
+    .edit_bottom .custom_field p{
+        font-size: 1.3rem;
+        margin-left: 0.5rem;
+    }
+    .edit_bottom .milestone_main{
+        width:100%;
+    }
+    .edit_bottom .milestone_main .milestone{
+        width:100%;
+    }
+    .edit_bottom .milestone_main .milestone .mile_first,
+    .edit_bottom .milestone_main .milestone_target .mile_second,
+    .edit_bottom .projectz .projectz_top{
+        width:100%;
+        justify-content: flex-start;
+    }
+    .edit_bottom .milestone_main .milestone .mile_first p,
+    .edit_bottom .milestone_main .milestone_target .mile_second p,
+    .edit_bottom .projectz .projectz_top p
+    {
+        font-size: 1rem;
+    }
+    .edit_bottom .milestone_target{
+        width:100%;
+    }
+    .edit_bottom .projectz{
+        width:100%;
+    }
+    .edit_bottom .projectz_top{
+        justify-content: flex-start;
+        align-items:center;
+        width:100%;
+    }
+    .edit_bottom .description{
+        width:100%;
+        justify-content:center;
+        align-items:center;
+    }
+    .edit_bottom .description .desc_title{
+        justify-content:flex-start;
+        align-items:center;
+    } 
+    .edit_bottom .custom_buttons{
+        align-items: center;
+    }
+    /* edit bottom end */
+    
+}
+
+@media only screen and (min-device-width:1025px)and (max-device-width:1200px){
+    .details_edit{
+        width:100%;
+    }
+    .details_edit .edit_top{
+        justify-content: flex-start;
+        align-items: center;
+    }   
+    .details_edit .edit_top p{
+        padding:0 0.2rem;
+        font-size: 1.5rem;
+    }
+/* edit middle left start */
+    .details_edit .edit_middle{
+        justify-content: center;
+        width:100%; 
+    }
+    .edit_middle .edit_middle_left{
+        width:100%;
+        margin-right: 1rem;
+    }
+    .edit_middle .edit_middle_left .left_title{
+        font-size: 1.5rem;
+    }
+    .edit_middle .edit_middle_left .middle_title{
+        width:100%;
+    }
+    .edit_middle .edit_middle_left .middle_title p{
+        font-size: 1.4rem;
+    }
+    .edit_middle_left .middle_second{
+        width:100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_second .project_name{
+        margin-left: 1rem;
+    }
+    .edit_middle_left .middle_second p
+        ,.middle_third p,
+        .middle_fourth p,
+        .middle_fifth p,
+        .middle_sixth .dates p
+        {font-size: 1rem;}
+    .edit_middle_left .middle_second input,
+    .middle_third input ,
+    .middle_fifth input
+    {
+        padding:1rem;
+        width:100%;
+    }
+    .edit_middle_left .middle_third{
+        width:100%;
+        justify-content: center;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_third .client_name{
+        width:100%;
+        margin-left: 1rem;
+    }
+    .edit_middle_left .middle_third div{
+        width:100%;
+    }
+    .edit_middle_left .middle_second input,
+     .middle_third input,
+     .middle_fifth input 
+     {
+        padding:0.7rem;
+     }
+    .edit_middle_left .middle_fourth{
+        width:100%;
+        margin-top:1rem;
+    }
+    .edit_middle_left .middle_fourth div{
+        width:100%;
+    }
+    .edit_middle_left .middle_fourth .first
+    {
+        width:100%;
+    }
+    .edit_middle_left .middle_fourth .assigned_group
+    {
+        margin-left: 1rem;
+        width: 100%;
+    }
+    .edit_middle_left .middle_fourth .first .MuiFormControl-root ,
+    .middle_fourth .assigned_group .MuiFormControl-root{
+        margin: 0;
+        margin-left: 1rem;
+        width: 87%;
+    }
+    .edit_middle_left .middle_fifth{
+        width:100%;
+        margin:1rem 0;
+    }
+    .edit_middle_left .middle_fifth .makeStyles-formControl-3 {
+        margin:0;
+        width:87%;
+    }
+    .edit_middle_left .middle_fifth .assign_to{
+        width:50%;
+    }
+    .edit_middle_left .middle_fifth .demo_url{
+        width:50%;
+    }
+    .edit_middle_left .middle_sixth{
+        width:100%;
+        margin: 1rem 0; 
+    }
+    .edit_middle_left .middle_sixth .projects_dates{
+        justify-content: flex-start;
+        align-items: center;
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates{
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates .start_date{
+        width:100%;
+    }
+    .edit_middle_left .middle_sixth .dates .end_date{
+        width:100%;
+    }
+    /* edit middle right start */
+    .edit_middle .edit_middle_right{
+        padding:1rem;
+        width:100%;
+        margin:0;
+        text-align: start;
+    }
+    .edit_middle .edit_middle_right .other_info{
+        width:100%;
+        justify-content:flex-start;
+        align-items:center;
+        padding-bottom: 1rem;
+        margin:0;
+        margin-top: 5rem;
+    }
+    .edit_middle .edit_middle_right .other_info p{
+        font-size: 1.3rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours p,
+    .edit_middle .edit_middle_right .estimate p,
+    .edit_middle .edit_middle_right .project_logo p:nth-child(1)
+    {
+        font-size: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours{
+        margin-top: 2rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours div{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .billing{
+        width:100%;
+        margin-right: 1rem;
+    }
+    .edit_middle .edit_middle_right .billing_hours .hours{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .billing_hours .hours input{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate{
+        width:100%;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .estimate p{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate input{
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .estimate .estimate_hours1{
+        width:50%;
+    }
+    .edit_middle .edit_middle_right .estimate .progress{
+        width:50%;
+    }
+    .edit_middle .edit_middle_right .project_logo{
+        display: flex;
+        margin-top: 1rem;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(1){
+        width:100%;
+    }
+    .edit_middle .edit_middle_right .project_logo p:nth-child(2){
+        font-size: 1rem;
+        padding:1rem;
+    }
+    /* edit middle end */
+    /* edit_bottom start */
+    .edit_bottom {
+        width:100%;
+    }
+    .edit_bottom .custom_field{
+        justify-content:flex-start;
+        align-items: center;
+        width:100%;
+    }
+    .edit_bottom .custom_field p{
+        font-size: 1.3rem;
+        margin-left: 0.5rem;
+    }
+    .edit_bottom .milestone_main{
+        width:100%;
+    }
+    .edit_bottom .milestone_main .milestone{
+        width:100%;
+    }
+    .edit_bottom .milestone_main .milestone .mile_first,
+    .edit_bottom .milestone_main .milestone_target .mile_second,
+    .edit_bottom .projectz .projectz_top{
+        width:100%;
+        justify-content: flex-start;
+    }
+    .edit_bottom .milestone_main .milestone .mile_first p,
+    .edit_bottom .milestone_main .milestone_target .mile_second p,
+    .edit_bottom .projectz .projectz_top p
+    {
+        font-size: 1rem;
+    }
+    .edit_bottom .milestone_target{
+        width:100%;
+    }
+    .edit_bottom .projectz{
+        width:100%;
+    }
+    .edit_bottom .projectz_top{
+        justify-content: flex-start;
+        align-items:center;
+        width:100%;
+    }
+    .edit_bottom .description{
+        width:100%;
+        justify-content:center;
+        align-items:center;
+    }
+    .edit_bottom .description .desc_title{
+        justify-content:flex-start;
+        align-items:center;
+    } 
+    .edit_bottom .custom_buttons{
+        align-items: center;
+    }
+    /* edit bottom end */
+    
+}

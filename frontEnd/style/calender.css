@@ -1,0 +1,21 @@
+.maincontainer p{
+    width:100%;
+    font-size: 1.6rem;
+    font-weight: 600;
+    align-items: center;
+    text-align: start;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    /* background-color: white; */
+    border-bottom: 1px solid #dee2e6;
+}
+.maincontainer p::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #009092;
+    right: 0;
+    top: 20%;
+    position: relative;
+}

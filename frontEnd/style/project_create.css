@@ -1,0 +1,9 @@
+ /* .middle_second   input:required:invalid{
+    border:1px solid red;
+}
+.middle_second   input:required{
+    border:1px solid black;
+}  */
+.edit_middle .middle_fifth .assign_to .makeStyles-formControl-1{
+    margin: 0;
+}

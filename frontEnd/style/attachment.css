@@ -1,0 +1,76 @@
+.attachment{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.attachment div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom:1px solid black;
+}
+.attachment button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    font-size: 1rem;
+    border-radius: 5px ;
+    color:#146f70;
+    background-color:#d6eeee; 
+    margin:1rem 0;
+    border:none;
+}
+.attachment button:hover{ 
+    color:white;
+    background-color:#009092;
+    transition: all 0.4s ease-in-out;
+}
+.attachment button p{
+    margin-left: 1rem;
+}
+.attachment .para{
+    align-items: center;
+    padding-top: 1rem;
+}
+@media only screen and (max-device-width:280px){
+.attachment{
+    width:100%;
+}
+}
+
+@media only screen and (min-device-width:281px) and (max-device-width:320px){
+    .attachment{
+        width:100%;
+    }
+    }
+ 
+@media only screen and (min-device-width:321px) and (max-device-width:414px){
+    .attachment{
+        width:100%;
+    }
+    }
+    
+@media only screen and (min-device-width:415px) and (max-device-width:640px){
+    .attachment{
+        width:100%;
+    }
+    }
+      
+@media only screen and (min-device-width:641px) and (max-device-width:812px){
+    .attachment{
+        width:100%;
+    }
+    }
+         
+@media only screen and (min-device-width:813px) and (max-device-width:1024px){
+    .attachment{
+        width:100%;
+    }
+    }
+           
+@media only screen and (min-device-width:1025px) and (max-device-width:1200px){
+    .attachment{
+        width:100%;
+    }
+    }

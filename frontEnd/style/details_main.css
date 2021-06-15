@@ -1,0 +1,1077 @@
+
+ .bottom_first{
+    display: flex;
+    width:100%;
+    background-color:white;
+    padding:2rem 0;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+.bottom_first .left{
+    padding-left:1rem;
+    display: flex;
+    align-items:center;
+    text-align: start;
+    font-weight: 500;
+    width:50%;
+}
+.bottom_first .left span:nth-child(1){
+    color:#009092;
+    font-size: 1rem;
+    margin-right: 1rem;
+    border-bottom:3px solid #009092;
+}
+.bottom_first .right{
+    width:50%;
+    padding-right:2rem;
+    text-align:end;
+}
+.bottom_first .right span .edit_icon{
+    font-size: 2.5rem;
+        border-radius: 5px;
+        background-color: #8be9eb;
+        color:#009092;
+        padding:0.5rem;
+}
+.bottom_first .right span .edit_icon:hover{
+    color:white;
+    background-color:#009092;
+    transition: all 0.4s ease-in-out;
+}
+.bottom_second{
+    display: flex;
+    width:100%;
+    letter-spacing: 1px;
+}
+.bottom_second .second_left{
+    display: flex;
+    flex-direction: column;
+    margin-right:0.5rem;
+    width:30%;
+    color:#2e2e2e;
+}
+/* left_first start*/
+.bottom_second .second_left .left_first{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+    margin-bottom:1rem;
+    padding:1rem;
+}
+.bottom_second .second_left .left_first .common{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:#75787d;
+    margin-bottom:2rem;
+}
+.bottom_second .second_left .left_first .version p:nth-child(1){
+    font-weight: 500;
+    margin-bottom:1rem;
+}
+.bottom_second .second_left .left_first .version p:nth-child(2){
+    border: 1px solid #b9babd;
+    border-radius: 5px;
+    padding:0.7rem 4rem;
+    font-size: 1rem;
+}
+.bottom_second .second_left .left_first .status p:nth-child(1){
+    font-weight: 500;
+    margin-bottom:1rem;
+}
+.bottom_second .second_left .left_first .status p .MuiSelect-outlined.MuiSelect-outlined{
+    background-color: #8be9eb;
+    font-size:0.9rem;
+    font-weight: 100;
+    color:#333;
+    border:none;
+    height:1rem;
+}
+.bottom_second .second_left .left_first .created p:nth-child(1){
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.bottom_second .second_left .left_first .created{
+    margin-bottom: 1rem;
+}
+.bottom_second .second_left .left_first .created div p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom_second .second_left .left_first .created img{ 
+    object-fit: cover;
+    border-radius:25px;
+    width:2rem;
+    height:2rem;
+}
+.bottom_second .second_left .left_first .created div span{
+    text-transform: lowercase;
+    font-size: 1rem;
+}
+.bottom_second .second_left .left_first .assigned p{
+    font-weight: 500;
+}
+.bottom_second .second_left .left_first .assigned{
+    margin-bottom: 1rem;
+}
+.bottom_second .second_left .left_first .assigned img{
+    object-fit: cover;
+    border-radius:25px;
+    width:2rem;
+    height:2rem;
+}
+.bottom_second .second_left .left_first .progress p:nth-child(1){
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.bottom_second .second_left .left_first .progress{
+    margin-bottom: 0;
+}
+/* left first end */
+/* left second start */
+.bottom_second .second_left .left_second{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: start;
+    margin-bottom:1rem;
+    padding:1rem;
+    letter-spacing: 1px;
+    color:#75787d;
+}
+/* left second end */
+/* second right start */
+.bottom_second .second_right {
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    letter-spacing: 1px;
+}
+.bottom_second .second_right .descritpion{
+   display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: start;
+    background-color:white;
+    padding:1rem;
+    margin-bottom:1rem;
+}
+.bottom_second .second_right .descritpion p:nth-child(1){
+    font-size: 1rem;
+    width: 100%;
+    color:#009092;
+    font-weight: 500;
+}
+.bottom_second .second_right .descritpion p:nth-child(1)::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #009092;
+    right: 0;
+    top: 20%;
+    position: relative;
+}
+.bottom_second .second_right .descritpion p:nth-child(2){
+    padding:2rem 0 1rem 0;
+    width: 100%;
+    border-bottom:2px solid #b9babd;
+}
+.bottom_second .second_right .custom_field{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    background-color:white;
+    padding:1rem;
+    margin-bottom:1rem;
+    width: 100%;
+}
+.bottom_second .second_right .custom_field h3{
+    font-size: 1rem;
+    width: 100%;
+    color:#009092;
+    font-weight: 500;
+    padding-bottom:1rem;
+}
+
+.bottom_second .second_right .custom_field h3::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #009092;
+    right: 0;
+    top: 20%;
+    position: relative;
+}
+.bottom_second .second_right .custom_field .milestone_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    text-align: start;
+    width:100%;
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom:2px solid #b9babd;
+}
+.bottom_second .second_right .custom_field .milestone_main div{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.bottom_second .second_right .custom_field .milestone_main div p:nth-child(1){
+    font-weight: 500;
+    margin-bottom:1rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color:#75787d;
+}
+.bottom_second .second_right .custom_field .milestone_main div p:nth-child(2){
+    font-size: 1.2rem;
+    color: #525457;
+}
+.bottom_second .second_right .todo {
+   display: flex;
+    justify-content: space-between;
+    text-align: start;
+    font-size: 1rem;
+    width: 100%;
+    color:#009092;
+    font-weight: 500;
+    padding:2rem;
+    background-color:white;
+    text-transform:uppercase;
+}
+.bottom_second .second_right .todo p::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #009092;
+    right: 0;
+    top: 20%;
+    position: relative;
+}
+/* todo  start*/
+.bottom_second .second_right .todo .create{
+    font-size: 2.5rem;
+    border-radius: 5px ;
+    background-color:#8be9eb;
+}
+.bottom_second .second_right .todo .create:hover{
+    color:white;
+    background-color:#009092;
+    transition: all 0.4s ease-in-out;
+}
+.bottom_second .second_right .bottom_route{ 
+    width:100%;
+    margin-top: 1rem;
+}
+/* todo model */
+.todo_model{
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    width:35rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.todo_model .todo_model_title{
+    display:flex;
+    width:100%;
+    align-items:center;
+    background-color: #009092;
+    border-radius: 5px;
+    padding:1.5rem;
+    position:relative;
+    bottom:3.5rem;
+    color:white;
+    font-size:1.5rem;
+    box-shadow: 0 8px 8px 0 rgb(0 0 0 / 10%), 0 8px 8px 0 rgb(0 0 0 / 10%);
+}
+.todo_model .todo_model_title .title_left{
+    display:flex;
+    width:50%;
+    justify-content:flex-start;
+    align-items:center;
+}
+.todo_model .todo_model_title .title_left p{
+    margin-left:0.5rem;
+}
+.todo_model .todo_model_title .title_right{
+    width:50%;
+    justify-content:center;
+    text-align:end;
+    align-items:center 
+}
+.todo_model .todo_model_desc{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.todo_model .todo_model_desc p{
+    margin-bottom: 1rem;
+}
+.todo_model .todo_model_desc textarea{
+    outline: none;
+    padding:0.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+}
+.todo_model .todo_model_dueDate p{
+    margin-bottom: 1.5rem;
+}
+.todo_model .todo_model_dueDate{
+    margin-bottom: 1rem;
+    width:100%;
+}
+.todo_model .todo_model_buttons{
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.todo_model .todo_model_buttons button{
+    padding:1rem 1.5rem;
+    border-radius:25px;
+    margin:0 1rem;
+    border:1px solid gray;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    background-color: white;
+    color:black;
+    box-shadow: 0 6px 0 0 rgb(0 0 0 / 1%), 0 15px 32px 0 rgb(0 0 0 / 6%);
+    transition: all .4s ease-in-out;
+}
+.todo_model .todo_model_buttons button:hover{
+    background-color: #dfd9d9;
+}
+/* todo end */
+/* second right end */
+
+@media only screen and (max-device-width:280px){
+
+ .bottom_first{
+    flex-direction: column;
+    align-items: center;
+ }
+ .bottom_first .left{
+     padding:0 ;
+    justify-content: center;
+    width: 100%;
+}
+ .bottom_first .right{
+    text-align:center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding:0;
+    width: 100%;
+ }
+.bottom_second{
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+    width:100%;
+    }
+.bottom_second .second_left{
+    width:100%;
+}
+.bottom_second .second_right {
+    width:100%;
+}
+.bottom_second .second_left .left_first{
+    align-items:center;
+}
+.bottom_second .second_left .left_first .version p:nth-child(2){
+    padding:0.7rem 4rem;
+}
+.bottom_second .second_left .left_first .common{
+    align-items: center;
+}
+.bottom_second .second_left .left_first .progress{
+    align-items: center;
+}
+
+.bottom_second .second_left .left_first .assigned{
+    align-items: center;
+}
+.bottom_second .second_right .descritpion{
+    text-align:center;
+    align-items: center;
+}
+.bottom_second .second_right .descritpion p:nth-child(1)::after{
+    width: 100%;
+    height: 2px;
+}
+.bottom_second .second_right .custom_field{
+    text-align:center;
+    align-items: center;
+}
+.bottom_second .second_right .custom_field h3::after{
+    width: 100%;
+    height: 2px;
+}
+.bottom_second .second_right .custom_field .milestone_main{
+    flex-direction: column;
+}
+.bottom_second .second_right .custom_field .milestone_main div{
+    align-items: center;
+    margin-bottom:1.5rem;
+}
+.bottom_second .second_right .todo {
+    align-items: center;
+    padding: 1rem;
+}
+.bottom_second .second_right .todo p::after {
+    height:2px;
+}
+.todo_model{
+    width:12rem;
+}
+.todo_model .todo_model_title{
+    font-size:1rem;
+}
+.todo_model .todo_model_dueDate p{
+    margin-bottom: 0.5rem;
+}
+.todo_model .todo_model_buttons{
+    justify-content:center;
+    align-items: center;
+}
+}
+@media only screen and (min-device-width:281px) and (max-device-width:320px){
+    
+ .bottom_first{
+    flex-direction: column;
+    align-items: center;
+ }
+ .bottom_first .left{
+     padding:0 ;
+    justify-content: center;
+    width: 100%;
+}
+ .bottom_first .right{
+    text-align:center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding:0;
+    width: 100%;
+ }
+.bottom_second{
+    flex-direction: column;
+    align-items:center;
+    text-align:center;
+    width:100%;
+    }
+.bottom_second .second_left{
+    width:100%;
+}
+.bottom_second .second_right {
+    width:100%;
+}
+.bottom_second .second_left .left_first .version p:nth-child(2){
+    padding:0.7rem 4rem;
+}
+.bottom_second .second_left .left_first{
+    align-items:center;
+}
+.bottom_second .second_left .left_first .common{
+    align-items: center;
+}
+.bottom_second .second_left .left_first .progress{
+    align-items: center;
+}
+
+.bottom_second .second_left .left_first .assigned{
+    align-items: center;
+}
+.bottom_second .second_right .descritpion{
+    text-align:center;
+    align-items: center;
+}
+.bottom_second .second_right .descritpion p:nth-child(1)::after{
+    width: 100%;
+    height: 2px;
+}
+.bottom_second .second_right .custom_field{
+    text-align:center;
+    align-items: center;
+}
+.bottom_second .second_right .custom_field h3::after{
+    width: 100%;
+    height: 2px;
+}
+.bottom_second .second_right .custom_field .milestone_main{
+    flex-direction: column;
+}
+.bottom_second .second_right .custom_field .milestone_main div{
+    align-items: center;
+    margin-bottom:1.5rem;
+}
+.bottom_second .second_right .todo {
+    align-items: center;
+    padding: 1rem;
+}
+.bottom_second .second_right .todo p::after {
+    height:2px;
+}
+
+.todo_model{
+    width:12rem;
+}
+.todo_model .todo_model_title{
+    font-size:1rem;
+}
+.todo_model .todo_model_dueDate p{
+    margin-bottom: 0.5rem;
+}
+.todo_model .todo_model_buttons{
+    justify-content:center;
+    align-items: center;
+}
+}
+@media only screen and (min-device-width:321px) and (max-device-width:414px){
+    
+    .bottom_first{
+       padding:1rem;
+       align-items: center;
+    }
+    .bottom_first .left{
+        padding:0 ;
+       justify-content: center;
+       align-items: center;
+       width: 50%;
+       flex: 1;
+
+   }
+    .bottom_first .right{
+       text-align:end;
+       justify-content: center;
+       margin-top: 1rem;
+       padding:0;
+       width: 50%;
+    }
+   .bottom_second{
+       flex-direction: column;
+       align-items:center;
+       text-align:center;
+       width:100%;
+       }
+   .bottom_second .second_left{
+       width:100%;
+   }
+   .bottom_second .second_right {
+       width:100%;
+   }
+   .bottom_second .second_left .left_first .version p:nth-child(2){
+       padding:0.7rem 4rem;
+   }
+   .bottom_second .second_left .left_first{
+       align-items:center;
+   }
+   .bottom_second .second_left .left_first .common{
+       align-items: center;
+   }
+   .bottom_second .second_left .left_first .progress{
+       align-items: center;
+   }
+   
+   .bottom_second .second_left .left_first .assigned{
+       align-items: center;
+   }
+   .bottom_second .second_right .descritpion{
+       text-align:center;
+       align-items: center;
+   }
+   .bottom_second .second_right .descritpion p:nth-child(1)::after{
+       width: 100%;
+       height: 2px;
+   }
+   .bottom_second .second_right .custom_field{
+       text-align:center;
+       align-items: center;
+   }
+   .bottom_second .second_right .custom_field h3::after{
+       width: 100%;
+       height: 2px;
+   }
+   .bottom_second .second_right .custom_field .milestone_main{
+       flex-direction: column;
+   }
+   .bottom_second .second_right .custom_field .milestone_main div{
+       align-items: center;
+       margin-bottom:1.5rem;
+   }
+   .bottom_second .second_right .todo {
+       align-items: center;
+       padding:1rem;
+   }
+
+   .bottom_second .second_right .todo p::after {
+       height:2px;
+   }
+    
+    .todo_model{
+        width:15rem;
+    }
+    .todo_model .todo_model_title{
+        font-size:1rem;
+    }
+    .todo_model .todo_model_dueDate p{
+        margin-bottom: 0.5rem;
+    }
+    .todo_model .todo_model_buttons{
+        justify-content:center;
+        align-items: center;
+    }
+   }
+   
+@media only screen and (min-device-width:415px) and (max-device-width:540px){
+    
+    .bottom_first{
+       padding:1rem;
+       align-items: center;
+    }
+    .bottom_first .left{
+        padding:0 ;
+       justify-content: center;
+       align-items: center;
+       width: 50%;
+       flex: 1;
+
+   }
+    .bottom_first .right{
+       text-align:end;
+       justify-content: center;
+       margin-top: 1rem;
+       padding:0;
+       width: 50%;
+    }
+   .bottom_second{
+       flex-direction: column;
+       align-items:center;
+       text-align:center;
+       width:100%;
+       }
+   .bottom_second .second_left{
+       width:100%;
+   }
+   .bottom_second .second_right {
+       width:100%;
+   }
+   .bottom_second .second_left .left_first .version p:nth-child(2){
+       padding:0.7rem 4rem;
+   }
+   .bottom_second .second_left .left_first{
+       align-items:center;
+   }
+   .bottom_second .second_left .left_first .common{
+       align-items: center;
+   }
+   .bottom_second .second_left .left_first .progress{
+       align-items: center;
+   }
+   
+   .bottom_second .second_left .left_first .assigned{
+       align-items: center;
+   }
+   .bottom_second .second_right .descritpion{
+       text-align:center;
+       align-items: center;
+   }
+   .bottom_second .second_right .descritpion p:nth-child(1)::after{
+       width: 100%;
+       height: 2px;
+   }
+   .bottom_second .second_right .custom_field{
+       text-align:center;
+       align-items: center;
+   }
+   .bottom_second .second_right .custom_field h3::after{
+       width: 100%;
+       height: 2px;
+   }
+   .bottom_second .second_right .custom_field .milestone_main{
+       flex-direction: column;
+   }
+   .bottom_second .second_right .custom_field .milestone_main div{
+       align-items: center;
+       margin-bottom:1.5rem;
+   }
+   .bottom_second .second_right .todo {
+       align-items: center;
+       padding:1rem;
+   }
+
+   .bottom_second .second_right .todo p::after {
+       height:2px;
+   }
+   
+.todo_model{
+    width:20rem;
+}
+.todo_model .todo_model_title{
+    font-size:1rem;
+}
+.todo_model .todo_model_dueDate p{
+    margin-bottom: 0.5rem;
+}
+.todo_model .todo_model_buttons{
+    justify-content:center;
+    align-items: center;
+}
+   }
+@media only screen and (min-device-width:541px) and (max-device-width:640px){
+ 
+    .bottom_first{
+        padding:1rem;
+        align-items: center;
+     }
+     .bottom_first .left{
+         padding:0 ;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        flex: 1;
+ 
+    }
+     .bottom_first .right{
+        text-align:end;
+        justify-content: center;
+        margin-top: 1rem;
+        padding:0;
+        width: 50%;
+     }
+    .bottom_second{
+        text-align:center;
+        width:100%;
+        }
+    .bottom_second .second_left{
+        width:35%;
+    }
+    .bottom_second .second_right {
+        width:65%;
+    }
+    .bottom_second .second_left .left_first .version p:nth-child(2){
+        padding:0.7rem 2rem;
+    }
+.bottom_second .second_left .left_first .progress .WithStyles\(ForwardRef\(LinearProgress\)\)-root-13{
+    width:7rem;
+    }
+    .bottom_second .second_left .left_first{
+        align-items:center;
+    }
+    .bottom_second .second_left .left_first .common{
+        align-items: center;
+    }
+    .bottom_second .second_left .left_first .progress{
+        align-items: center;
+    }
+    
+    .bottom_second .second_left .left_first .assigned{
+        align-items: center;
+    }
+    .bottom_second .second_right .descritpion{
+        text-align:center;
+        align-items: center;
+    }
+    .bottom_second .second_right .descritpion p:nth-child(1)::after{
+        width: 100%;
+        height: 2px;
+    }
+    .bottom_second .second_right .custom_field{
+        text-align:center;
+        align-items: center;
+    }
+    .bottom_second .second_right .custom_field h3::after{
+        width: 100%;
+        height: 2px;
+    }
+    .bottom_second .second_right .custom_field .milestone_main{
+        flex-direction: column;
+    }
+    .bottom_second .second_right .custom_field .milestone_main div{
+        align-items: center;
+        margin-bottom:1.5rem;
+    }
+    .bottom_second .second_right .todo {
+        align-items: center;
+        padding:1rem;
+    }
+    .bottom_second .second_right .todo p::after {
+        height:2px;
+    }
+    
+.todo_model{
+    width:25rem;
+}
+.todo_model .todo_model_title{
+    font-size:1rem;
+}
+.todo_model .todo_model_dueDate p{
+    margin-bottom: 0.5rem;
+}
+.todo_model .todo_model_buttons{
+    justify-content:flex-start;
+    align-items: center;
+}
+}
+
+@media only screen and (min-device-width:641px) and (max-device-width:812px){
+ 
+    .bottom_first{
+        padding:1rem;
+        align-items: center;
+     }
+     .bottom_first .left{
+         padding:0 ;
+        justify-content:flex-start;
+        align-items: center;
+        width: 50%;
+        flex: 1;
+    }
+     .bottom_first .right{
+        text-align:end;
+        justify-content: center;
+        margin-top: 1rem;
+        padding:0;
+        width: 50%;
+     }
+    .bottom_second{
+        text-align:center;
+        width:100%;
+        }
+    .bottom_second .second_left{
+        width:35%;
+    }
+    .bottom_second .second_right {
+        width:65%;
+    }
+    .bottom_second .second_left .left_first .version p:nth-child(2){
+        padding:0.7rem 3rem;
+    }
+    .bottom_second .second_left .left_first{
+        align-items:center;
+    }
+    .bottom_second .second_left .left_first .common{
+        align-items: center;
+    }
+    .bottom_second .second_left .left_first .progress{
+        align-items: center;
+    }
+    .bottom_second .second_left .left_first .assigned{
+        align-items: center;
+    }
+    .bottom_second .second_right .descritpion{
+       justify-content: flex-start;
+       align-items: center;
+    }
+    .bottom_second .second_right .descritpion p:nth-child(1)::after{
+        width: 100%;
+        height: 2px;
+    }
+    .bottom_second .second_right .custom_field{
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .bottom_second .second_right .custom_field h3::after{
+        width: 100%;
+        height: 2px;
+    }
+    .bottom_second .second_right .custom_field .milestone_main div{
+        align-items: center;
+        margin-bottom:1.5rem;
+    }
+    .bottom_second .second_right .todo {
+        align-items: center;
+        padding:1rem;
+    }
+    .bottom_second .second_right .todo p::after {
+        height:2px;
+    }
+      
+.todo_model{
+    width:35rem;
+}
+.todo_model .todo_model_title{
+    font-size:1rem;
+}
+.todo_model .todo_model_dueDate p{
+    margin-bottom: 0.5rem;
+}
+.todo_model .todo_model_buttons{
+    justify-content:flex-end;
+    align-items: center;
+}
+}
+
+@media only screen and (min-device-width:813px) and (max-device-width:1024px){
+ 
+    .bottom_first{
+        padding:1rem;
+        align-items: center;
+     }
+     .bottom_first .left{
+         padding:0 ;
+        justify-content:flex-start;
+        align-items: center;
+        width: 50%;
+        flex: 1;
+    }
+     .bottom_first .right{
+        text-align:end;
+        justify-content: center;
+        margin-top: 1rem;
+        padding:0;
+        width: 50%;
+     }
+    .bottom_second{
+        text-align:center;
+        width:100%;
+        }
+    .bottom_second .second_left{
+        width:35%;
+    }
+    .bottom_second .second_right {
+        width:65%;
+    }
+    .bottom_second .second_left .left_first .version p:nth-child(2){
+        padding:0.7rem 4rem;
+    }
+    .bottom_second .second_left .left_first{
+        align-items:flex-start;
+    }
+    .bottom_second .second_left .left_first .common{
+        align-items:start;
+    }
+    .bottom_second .second_left .left_first .progress{
+        align-items:flex-start;
+    }
+    .bottom_second .second_left .left_first .assigned{
+        align-items: flex-start;
+    }
+    .bottom_second .second_right .descritpion{
+       justify-content: flex-start;
+       align-items: center;
+    }
+    .bottom_second .second_right .descritpion p:nth-child(1)::after{
+        width: 100%;
+        height: 2px;
+    }
+    .bottom_second .second_right .custom_field{
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .bottom_second .second_right .custom_field h3::after{
+        width: 100%;
+        height: 2px;
+    }
+    .bottom_second .second_right .custom_field .milestone_main div{
+        align-items: center;
+        margin-bottom:1.5rem;
+    }
+    .bottom_second .second_right .todo {
+        align-items: center;
+        padding:1rem;
+    }
+    .bottom_second .second_right .todo p::after {
+        height:2px;
+    }
+      
+.todo_model{
+    width:35rem;
+}
+.todo_model .todo_model_title{
+    font-size:1rem;
+}
+.todo_model .todo_model_dueDate p{
+    margin-bottom: 0.5rem;
+}
+.todo_model .todo_model_buttons{
+    justify-content:flex-end;
+    align-items: center;
+}
+}
+
+@media only screen and (min-device-width:1025px) and (max-device-width:1200px){
+ 
+    .bottom_first{
+        padding:1rem;
+        align-items: center;
+     }
+     .bottom_first .left{
+         padding:0 ;
+        justify-content:flex-start;
+        align-items: center;
+        width: 50%;
+        flex: 1;
+    }
+     .bottom_first .right{
+        text-align:end;
+        justify-content: center;
+        margin-top: 1rem;
+        padding:0;
+        width: 50%;
+     }
+    .bottom_second{
+        text-align:center;
+        width:100%;
+        }
+    .bottom_second .second_left{
+        width:35%;
+    }
+    .bottom_second .second_right {
+        width:65%;
+    }
+    .bottom_second .second_left .left_first .version p:nth-child(2){
+        padding:0.7rem 4rem;
+    }
+    .bottom_second .second_left .left_first{
+        align-items:flex-start;
+    }
+    .bottom_second .second_left .left_first .common{
+        align-items:start;
+    }
+    .bottom_second .second_left .left_first .progress{
+        align-items:flex-start;
+    }
+    .bottom_second .second_left .left_first .assigned{
+        align-items: flex-start;
+    }
+    .bottom_second .second_right .descritpion{
+       justify-content: flex-start;
+       align-items: center;
+    }
+    .bottom_second .second_right .descritpion p:nth-child(1)::after{
+        width: 100%;
+        height: 2px;
+    }
+    .bottom_second .second_right .custom_field{
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .bottom_second .second_right .custom_field h3::after{
+        width: 100%;
+        height: 2px;
+    }
+    .bottom_second .second_right .custom_field .milestone_main div{
+        align-items: center;
+        margin-bottom:1.5rem;
+    }
+    .bottom_second .second_right .todo {
+        align-items: center;
+        padding:1rem;
+    }
+    .bottom_second .second_right .todo p::after {
+        height:2px;
+    }
+}

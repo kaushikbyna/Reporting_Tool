@@ -1,0 +1,77 @@
+.header_main{
+    display: flex;
+    width:100%;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    padding-right:1rem;
+    background-color: white;
+}
+@media only screen and (max-device-width:280px){
+    .header_main{
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        padding-right:0;
+        margin:0;
+    }
+    .header_main .MuiIconButton-root {
+        padding: 8px;
+    }
+}
+    @media only screen and (min-device-width:281px)and (max-device-width:320px){
+        .header_main{
+            width:100%;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    .header_main .MuiIconButton-root {
+        padding: 8px;
+    }
+}
+@media only screen and (min-device-width:321px)and (max-device-width:480px){
+    .header_main{
+        width:100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (min-device-width:481px)and (max-device-width:640px){
+    .header_main{
+        width:100%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+@media only screen and (min-device-width:641px)and (max-device-width:812px){
+    .header_main{
+        width:100%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+@media only screen and (min-device-width:813px)and (max-device-width:1024px){
+    .header_main{
+        width:100%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-device-width:1025px)and (max-device-width:1200px){
+    .header_main{
+        width:100%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-device-width:1201px)and (max-device-width:2000px){
+    .header_main{
+        width:100%;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}

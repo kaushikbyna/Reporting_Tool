@@ -1,0 +1,340 @@
+.table_content{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    overflow-x: scroll;
+}
+table {
+    border-collapse: collapse;
+    width:100%;
+    color:white;
+    font-weight:100;
+    border:2px solid #53ebee;
+    letter-spacing: 0.1px;
+}
+table tr:hover{
+    background-color: rgb(211, 207, 207);
+}
+tr{
+    border-bottom: 1.2px solid #8deef0;
+  }
+tr th{
+    padding:1rem 0 1rem 0rem;
+    background-color: rgba(0,157,160,.11);
+    color:#009da0;
+    text-align: center;
+    align-items: center;
+  }
+tr th span{
+    align-items: center;
+    text-align: center;
+    padding-left:0.5rem;
+}
+  tr th:nth-child(4),th:nth-child(5){
+      text-align: start;
+  }
+  tr th .MuiSvgIcon-root {
+      font-size: 1rem;
+  }
+  td{
+      border-bottom: 1px solid #fff;
+      color: #333;
+      text-align: center;
+      align-items: center;
+  }
+  td p{
+      display: flex;
+      margin:0.5rem 0;
+  }
+  tr td p span {
+    padding-left:5px;
+    font-weight: 500;
+}
+  tr td img{
+    object-fit: cover;
+    border-radius:25px;
+    width:2rem;
+    height:2rem;
+  }
+  tr td:nth-child(7) img{
+    object-fit: cover;
+    border-radius:25px;
+    width:2rem;
+    height:2rem;
+    margin-right: -33px;
+    background-color: #3b4850;
+  }
+  tr td:nth-child(7) img:hover{
+      z-index: 10;
+      margin-right:-20px;
+  }
+  tr:nth-child(2) td:nth-child(2) p{
+      color:#009da0;
+      font-size:1rem;
+  }
+
+  .table tr td  .MuiSelect-select.MuiSelect-select{
+    background-color: #8be9eb;
+    font-size: 1rem;
+    font-weight: 100;
+    color:#333 !important;
+    border:none;
+    width: 5rem;
+  }
+  tr td:nth-child(8) div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+.table_content .table_bottom_info{
+    display: flex;
+    margin:1rem 0 0 0;
+    color:#333;
+    width:100%;
+}
+
+.table_content .table_bottom_info .table_left{
+    width:45%;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+.table_content .table_bottom_info .table_right{
+    width:55%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+.table_content .table_bottom_info .table_right button{
+    background: transparent;
+    border:1px solid gray;
+    padding:1rem 2rem;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-left:0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    transition: all 0.4s ease-in-out;
+}
+.table_content .table_bottom_info .table_right button:hover{
+    color:white;
+    background-color:#009da0;
+}
+@media only screen and (max-device-width:280px){
+    tr th div{
+        display:flex;
+        margin-left:1rem;
+    }
+    tr th:nth-child(3) div{
+        align-items: flex-start;
+    }
+    tr th:nth-child(9) div{
+        margin-right: 1rem;
+    }
+    .table_content .table_bottom_info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+.table_content .table_bottom_info .table_left{
+    width:100%;
+    margin-bottom:1rem;
+}
+.table_content .table_bottom_info .table_right{
+    width:100%;
+    justify-content: flex-start;
+}
+.table_content .table_bottom_info .table_right button{
+    font-size: 0.8rem;
+    padding:1rem;
+}
+}
+@media only screen and (min-device-width:281px)and (max-device-width:320px){
+    tr th div{
+        display:flex;
+        margin-left:1rem;
+    }
+    tr th:nth-child(9) div{
+        margin-right: 1rem;
+    }
+    .table_content .table_bottom_info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .table_content .table_bottom_info .table_left{
+    width:100%;
+    margin-bottom:1rem;
+    }
+    .table_content .table_bottom_info .table_right{
+        width:100%;
+        justify-content: flex-start;
+    }
+    .table_content .table_bottom_info .table_right button{
+        font-size: 0.8rem;
+        padding:1rem;
+    }
+}
+@media only screen and (min-device-width:321px) and (max-device-width:480px){
+    tr th div{
+        display:flex;
+        margin-left:1rem;
+    }
+    tr th:nth-child(9) div{
+        margin-right: 1rem;
+    }
+    .table_content .table_bottom_info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .table_content .table_bottom_info .table_left{
+    width:100%;
+    margin-bottom:1rem;
+    }
+    .table_content .table_bottom_info .table_right{
+        width:100%;
+        justify-content: flex-start;
+    }
+    .table_content .table_bottom_info .table_right button{
+        font-size: 0.8rem;
+        padding:1rem;
+    } 
+}
+@media only screen and (min-device-width:481px)and (max-device-width:640px){
+    tr th div{
+        display:flex;
+        margin-left:1rem;
+    }
+    tr th:nth-child(9) div{
+        margin-right: 1rem;
+    }
+    .table_content .table_bottom_info{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .table_content .table_bottom_info .table_left{
+    width:100%;
+    margin-bottom:1rem;
+    }
+    .table_content .table_bottom_info .table_right{
+        width:100%;
+        justify-content: flex-start;
+    }
+    .table_content .table_bottom_info .table_right button{
+        font-size: 0.8rem;
+        padding:1rem;
+    }   
+}
+@media only screen and (min-device-width: 641px) and (max-device-width:812px){
+    tr th div{
+        display:flex;
+        margin-left:1rem;
+    }
+    tr th:nth-child(9) div{
+        margin-right: 1rem;
+    }
+    .table_content .table_bottom_info{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .table_content .table_bottom_info .table_left{
+        width:50%;
+        margin-bottom:1rem;
+    }
+    .table_content .table_bottom_info .table_right{
+        width:50%;
+        justify-content: flex-start;
+    }
+    .table_content .table_bottom_info .table_right button{
+        font-size: 0.8rem;
+        padding:1rem;
+    }  
+}
+@media only screen and (min-device-width: 813px) and (max-device-width:1024px){
+    tr th div{
+        display:flex;
+        margin-left:1rem;
+    }
+    tr th:nth-child(9) div{
+        margin-right: 1rem;
+    }
+    .table_content .table_bottom_info{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .table_content .table_bottom_info .table_left{
+        width:50%;
+        margin-bottom:1rem;
+    }
+    .table_content .table_bottom_info .table_right{
+        width:50%;
+        justify-content: flex-start;
+    }
+    .table_content .table_bottom_info .table_right button{
+        font-size: 0.8rem;
+        padding:1rem;
+    }  
+}
+@media only screen and (min-device-width: 1025px) and (max-device-width:1200px){
+    tr th div{
+        display:flex;
+        margin-left:1rem;
+    }
+    tr th:nth-child(9) div{
+        margin-right: 1rem;
+    }
+    .table_content .table_bottom_info{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .table_content .table_bottom_info .table_left{
+        width:50%;
+        margin-bottom:1rem;
+    }
+    .table_content .table_bottom_info .table_right{
+        width:50%;
+        justify-content: flex-start;
+    }
+    .table_content .table_bottom_info .table_right button{
+        font-size: 1rem;
+        padding:1rem;
+    } 
+}
+
+@media only screen and (min-device-width: 1201px) and (max-device-width:2000px){
+    tr th div{
+        display:flex;
+        margin-left:1rem;
+    }
+    tr th:nth-child(9) div{
+        margin-right: 1rem;
+    }
+    .table_content .table_bottom_info{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .table_content .table_bottom_info .table_left{
+        width:50%;
+        margin-bottom:1rem;
+    }
+    .table_content .table_bottom_info .table_right{
+        width:50%;
+        justify-content: flex-start;
+    }
+    .table_content .table_bottom_info .table_right button{
+        font-size: 1rem;
+        padding:1rem;
+    } 
+}

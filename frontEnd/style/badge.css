@@ -1,0 +1,1624 @@
+    .badge{
+        display: flex;
+        margin:2rem 0;
+    }
+    .badge div{
+        margin-right:1rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .badge div:hover
+    {
+        box-shadow: 0 8px 6px -6px black;
+    }
+    /* blue button */
+    .badge .blue_button{
+        display: flex;
+        font-size: 1rem;
+        border-radius: 5px;
+        width:auto;
+        height:3rem;
+        background-color: black;
+        border:2px solid #1cbcd8;
+        align-items: center;
+    }
+    .badge .blue_button button{
+        display: flex;
+    }
+    .badge .blue_button h4
+    {
+        border:1px solid #1cbcd8;
+        font-weight: 100;
+        margin:-1px;
+        letter-spacing: 1px;
+        padding:0.8rem 2rem 0.8rem 1rem;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        color:white;
+        background-color: #1cbcd8;
+    }
+    /* f8f9fa */
+    .badge .blue_button h4::after{
+        border-bottom: 46px solid black;
+        border-left: 18px solid transparent;
+        height: 0;
+        width: 20px;
+        content: "";
+        position: absolute;
+        top:  306px;
+        left: 118.5px;
+    }
+    /* blue end */
+    /* is Red  start*/
+    .badge .red_button{
+        display: flex;
+        font-size: 1rem;
+        border-radius: 5px;
+        width:auto;
+        height:3rem;
+        background-color: black;
+        border:2px solid red;
+        align-items: center;
+    }
+    .badge .red_button button{
+        display: flex;
+    }
+    .badge .red_button h4
+    {
+        border:1px solid red;
+        margin:-1px;
+        letter-spacing: 1px;
+        padding:0.8rem 2rem 0.8rem 1rem;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        color:white;
+        background-color: red;
+        font-weight: 100;
+    }
+
+    .badge .red_button h4::after{
+        border-bottom: 46px solid black;
+        border-left: 18px solid transparent;
+        height: 0;
+        width: 20px;
+        content: "";
+        position: absolute;
+        top:  306px;
+        left: 1046.5px;
+    }
+    /* is Red end */
+    /* is yellow start */
+    .badge .yellow_button{
+        display: flex;
+        font-size: 1rem;
+        border-radius: 5px;
+        width:auto;
+        height:3rem;
+        background-color: black;
+        border:2px solid #ffb136;
+        align-items: center;
+    }
+    .badge .yellow_button button{
+        display: flex;
+    }
+    .badge .yellow_button h4
+    {
+        border:1px solid #ffb136;
+        margin:-1px;
+        letter-spacing: 1px;
+        padding:0.8rem 2rem 0.8rem 1rem;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        color:white;
+        background-color:#ffb136;
+        font-weight: 100;
+    }
+
+    .badge .yellow_button h4::after{
+        border-bottom: 46px solid black;
+        border-left: 18px solid transparent;
+        height: 0;
+        width: 20px;
+        content: "";
+        position: absolute;
+        top:  306px;
+        left: 327.5px;
+    }
+    /* is yellow end */
+    /* is gray Start */
+    .badge .gray_button{
+        display: flex;
+        font-size: 1rem;
+        border-radius: 5px;
+        width:auto;
+        height:3rem;
+        background-color: black;
+        border:2px solid #9a9a9a;
+        align-items: center;
+    }
+    .badge .gray_button button{
+        display: flex;
+    }
+    .badge .gray_button h4
+    {
+        border:1px solid #9a9a9a;
+        margin:-1px;
+        letter-spacing: 1px;
+        padding:0.8rem 2rem 0.8rem 1rem;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        color:white;
+        background-color:#9a9a9a;
+        font-weight: 100;
+    }
+
+    .badge .gray_button h4::after{
+        border-bottom: 46px solid black;
+        border-left: 18px solid transparent;
+        height: 0;
+        width: 20px;
+        content: "";
+        position: absolute;
+        top:  306px;
+        left: 505.5px;
+    }
+    /* is gray end */
+    /* is Pink start */
+    .badge .pink_button{
+        display: flex;
+        font-size: 1rem;
+        border-radius: 5px;
+        width:auto;
+        height:3rem;
+        background-color: black;
+        border:2px solid #ff1053;
+        align-items: center;
+    }
+    .badge .pink_button button{
+        display: flex;
+    }
+    .badge .pink_button h4
+    {
+        border:1px solid #ff1053;
+        margin:-1px;
+        letter-spacing: 1px;
+        padding:0.8rem 2rem 0.8rem 1rem;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        color:white;
+        background-color:#ff1053;
+        font-weight: 100;
+    }
+
+    .badge .pink_button h4::after{
+        border-bottom: 46px solid black;
+        border-left: 18px solid transparent;
+        height: 0;
+        width: 20px;
+        content: "";
+        position: absolute;
+        top:  306px;
+        left: 671.5px;
+    }
+    /* is pink end */
+    /* is Green start */
+    .badge .green_button{
+        display: flex;
+        font-size: 1rem;
+        border-radius: 5px;
+        width:auto;
+        height:3rem;
+        background-color: black;
+        border:2px solid #2ecc71;
+        align-items: center;
+    }
+    .badge .green_button button{
+        display: flex;
+    }
+    .badge .green_button h4
+    {
+        border:1px solid #2ecc71;
+        margin:-1px;
+        letter-spacing: 1px;
+        padding:0.8rem 2rem 0.8rem 1rem;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        color:white;
+        background-color:#2ecc71;
+        font-weight: 100;
+    }
+
+    .badge .green_button h4::after{
+        border-bottom: 46px solid black;
+        border-left: 18px solid transparent;
+        height: 0;
+        width: 20px;
+        content: "";
+        position: absolute;
+        top:  306px;
+        left: 867.5px;
+    }
+    /* is Green end */
+    .badge  p{
+        letter-spacing: 1px;
+        padding:1rem 1.5rem;
+        padding:1rem;
+        color:white;
+    }
+    @media only screen and (max-device-width:280px){
+        .badge{
+            flex-direction: column;
+            justify-content:center;
+            align-items:center;
+            margin:0;
+            padding: 0;
+        }
+        .badge div{
+            margin:1rem 0;
+        }
+        .badge .blue_button h4::after{
+            top:  332px;
+            left: 139.5px;
+        }
+        .badge .red_button h4::after{
+            top:  732px;
+            left: 152.5px;
+        }
+        .badge .yellow_button h4::after{
+            top:  412px;
+            left: 159.5px;
+        }
+        .badge .gray_button h4::after{
+            top:  492px;
+            left: 154.5px;
+        }
+        .badge .green_button h4::after{
+            top:  652px;
+            left: 168.5px;
+        }
+        .badge .pink_button h4::after{
+            top:  572px;
+            left: 146.5px;
+        }
+    }
+    @media only screen and (min-device-width:281px)and (max-device-width:308px){
+        .badge{
+            flex-direction: column;
+            align-items:center;
+            margin:0;
+            flex:10;
+            padding: 0;
+        }
+        .badge div{
+            margin:1rem 0;
+        }
+        .badge .blue_button h4::after{
+            top:  332px;
+            left: 150.5px;
+        }
+        .badge .red_button h4::after{
+            top:  732px;
+            left: 162.5px;
+        }
+        .badge .yellow_button h4::after{
+            top:  412px;
+            left: 174.5px;
+        }
+        .badge .gray_button h4::after{
+            top:  492px;
+            left: 162.5px;
+        }
+        .badge .green_button h4::after{
+            top:  652px;
+            left: 172.5px;
+        }
+        .badge .pink_button h4::after{
+            top:  572px;
+            left: 159.5px;
+        }
+    }
+    @media only screen and (min-device-width:309px)and (max-device-width:320px){
+        .badge{
+            flex-direction: column;
+            align-items:center;
+            margin:0;
+            padding: 0;
+        }
+        .badge div{
+            margin:1rem 0;
+        }
+        .badge .blue_button h4::after{
+            top:  332px;
+            left: 158.5px;
+        }
+        .badge .red_button h4::after{
+            top:  732px;
+            left: 173.5px;
+        }
+        .badge .yellow_button h4::after{
+            top:  412px;
+            left: 186.5px;
+        }
+        .badge .gray_button h4::after{
+            top:  492px;
+            left: 173.5px;
+        }
+        .badge .green_button h4::after{
+            top:  652px;
+            left: 186.5px;
+        }
+        .badge .pink_button h4::after{
+            top:  572px;
+            left: 169.5px;
+        }
+    }
+@media only screen and (min-device-width:321px) and (max-device-width:340px){
+    .badge{
+        flex-direction: column;
+        align-items:center;
+        margin:0;
+        flex:10;
+        padding: 0;
+    }
+    .badge div{
+        margin:1rem 0;
+    }
+    .badge .blue_button h4::after{
+        top:  340px;
+        left: 166.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  420px;
+        left: 193.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  500px;
+        left: 179.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  580px;
+        left: 175.5px;
+    }
+    .badge .green_button h4::after{
+        top:  660px;
+        left: 191.5px;
+    }
+    .badge .red_button h4::after{
+        top:  740px;
+        left: 180.5px;
+    }
+}
+@media only screen and (min-device-width:341px) and (max-device-width:360px){
+    .badge{
+        flex-direction: column;
+        align-items:center;
+        margin:0;
+        padding: 0;
+    }
+    .badge div{
+        margin:1rem 0;
+    }
+    .badge .blue_button h4::after{
+        top:  340px;
+        left: 178.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  420px;
+        left: 205.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  500px;
+        left: 193.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  580px;
+        left: 190.5px;
+    }
+    .badge .green_button h4::after{
+        top:  660px;
+        left: 205.5px;
+    }
+    .badge .red_button h4::after{
+        top:  740px;
+        left: 193.5px;
+    }
+}
+@media only screen and (min-device-width:361px) and (max-device-width:380px){
+    .badge{
+        flex-direction: column;
+        align-items:center;
+        margin:0;
+        padding: 0;
+    }
+    .badge div{
+        margin:1rem 0;
+    }
+    .badge .blue_button h4::after{
+        top:  340px;
+        left: 180.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  420px;
+        left: 215.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  500px;
+        left: 195.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  580px;
+        left: 195.5px;
+    }
+    .badge .green_button h4::after{
+        top:  660px;
+        left: 210.5px;
+    }
+    .badge .red_button h4::after{
+        top:  740px;
+        left: 197.5px;
+    }
+}
+@media only screen and (min-device-width:381px) and (max-device-width:400px){
+    .badge{
+        flex-direction: column;
+        align-items:center;
+        margin:0;
+        padding: 0;
+    }
+    .badge div{
+        margin:1rem 0;
+    }
+    .badge .blue_button h4::after{
+        top:  340px;
+        left: 190.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  420px;
+        left: 216.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  500px;
+        left: 207.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  580px;
+        left: 202.5px;
+    }
+    .badge .green_button h4::after{
+        top:  660px;
+        left: 217.5px;
+    }
+    .badge .red_button h4::after{
+        top:  740px;
+        left: 206.5px;
+    }
+}
+@media only screen and (min-device-width:401px) and (max-device-width:414px){
+    .badge{
+        flex-direction: column;
+        align-items:center;
+        margin:0;
+        padding: 0;
+    }
+    .badge div{
+        margin:1rem 0;
+    }
+    .badge .blue_button h4::after{
+        top:  340px;
+        left: 200.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  420px;
+        left: 227.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  500px;
+        left: 215.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  580px;
+        left: 210.5px;
+    }
+    .badge .green_button h4::after{
+        top:  660px;
+        left: 225.5px;
+    }
+    .badge .red_button h4::after{
+        top:  740px;
+        left: 215.5px;
+    }
+}
+@media only screen and (min-device-width:415px) and (max-device-width:440px){
+    .badge{
+        flex-direction: column;
+        align-items:center;
+        margin:0;
+        padding: 0;
+    }
+    .badge div{
+        margin:1rem 0;
+    }
+    .badge .blue_button h4::after{
+        top:  306px;
+        left: 210.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  386px;
+        left: 237.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  466px;
+        left: 225.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  546px;
+        left: 224.5px;
+    }
+    .badge .green_button h4::after{
+        top:  626px;
+        left: 235.5px;
+    }
+    .badge .red_button h4::after{
+        top:  706px;
+        left: 226.5px;
+    }
+}
+@media only screen and (min-device-width:441px) and (max-device-width:460px){
+    .badge{
+        flex-direction: column;
+        align-items:center;
+        margin:0;
+        padding: 0;
+    }
+    .badge div{
+        margin:1rem 0;
+    } .badge div{
+        margin:1rem 0;
+    }
+    .badge .blue_button h4::after{
+        top:  306px;
+        left: 221.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  386px;
+        left: 246.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  466px;
+        left: 237.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  546px;
+        left: 230.5px;
+    }
+    .badge .green_button h4::after{
+        top:  626px;
+        left: 245.5px;
+    }
+    .badge .red_button h4::after{
+        top:  706px;
+        left: 245.5px;
+    }
+}
+@media only screen and (min-device-width:461px) and (max-device-width:480px){
+    .badge{
+        flex-direction: column;
+        align-items:center;
+        margin:0;
+        padding: 0;
+    }
+    .badge div{
+        margin:1rem 0;
+    }
+    .badge .blue_button h4::after{
+        top:  306px;
+        left: 234.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  386px;
+        left: 260.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  466px;
+        left: 245.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  546px;
+        left: 245.5px;
+    }
+    .badge .green_button h4::after{
+        top:  626px;
+        left: 255.5px;
+    }
+    .badge .red_button h4::after{
+        top:  706px;
+        left: 245.5px;
+    }
+}
+@media only screen and (min-device-width:481px) and (max-device-width:500px){
+    .badge{
+        flex-direction: column;
+        align-items:center;
+        margin:0;
+        padding: 0;
+    }
+    .badge div{
+        margin:1rem 0;
+    }
+    .badge .blue_button h4::after{
+        top:  306px;
+        left: 241.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  386px;
+        left: 272.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  466px;
+        left: 253.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  546px;
+        left: 254.5px;
+    }
+    .badge .green_button h4::after{
+        top:  626px;
+        left: 272.5px;
+    }
+    .badge .red_button h4::after{
+        top:  706px;
+        left: 260.5px;
+    }
+}
+@media only screen and (min-device-width:501px) and (max-device-width:520px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 0;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 137.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 372.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  418px;
+        left: 167.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 363.5px;
+    }
+    .badge .green_button h4::after{
+        top:  498px;
+        left: 173.5px;
+    }
+    .badge .red_button h4::after{
+        top:  498px;
+        left: 371.5px;
+    }   
+}
+@media only screen and (min-device-width:521px) and (max-device-width:544px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 0;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 150.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 390.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  418px;
+        left: 170.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 378.5px;
+    }
+    .badge .green_button h4::after{
+        top:  498px;
+        left: 176.5px;
+    }
+    .badge .red_button h4::after{
+        top:  498px;
+        left: 385.5px;
+    }   
+}
+@media only screen and (min-device-width:545px) and (max-device-width:570px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 150.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 410.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  418px;
+        left: 180.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 402.5px;
+    }
+    .badge .green_button h4::after{
+        top:  498px;
+        left: 180.5px;
+    }
+    .badge .red_button h4::after{
+        top:  498px;
+        left: 406.5px;
+    }   
+}
+@media only screen and (min-device-width:571px) and (max-device-width:600px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 155.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 430.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  418px;
+        left: 190.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 422.5px;
+    }
+    .badge .green_button h4::after{
+        top:  498px;
+        left: 195.5px;
+    }
+    .badge .red_button h4::after{
+        top:  498px;
+        left: 426.5px;
+    }   
+}
+@media only screen and (min-device-width:601px) and (max-device-width:630px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 162.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 450.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  418px;
+        left: 193.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 442.5px;
+    }
+    .badge .green_button h4::after{
+        top:  498px;
+        left: 200.5px;
+    }
+    .badge .red_button h4::after{
+        top:  498px;
+        left: 446.5px;
+    }   
+}
+@media only screen and (min-device-width:631px) and (max-device-width:640px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 170.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 460.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  418px;
+        left: 198.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 450.5px;
+    }
+    .badge .green_button h4::after{
+        top:  498px;
+        left: 204.5px;
+    }
+    .badge .red_button h4::after{
+        top:  498px;
+        left: 460.5px;
+    }   
+}
+@media only screen and (min-device-width:641px) and (max-device-width:660px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 0.5rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 115.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 340.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 531.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 122.5px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 332.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 530px;
+    }   
+}
+@media only screen and (min-device-width:661px) and (max-device-width:680px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 0.5rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 122.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 352.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 550.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 127.5px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 348.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 540.5px;
+    }   
+}
+@media only screen and (min-device-width:681px) and (max-device-width:700px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 122.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 359.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 565.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 130.5px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 350.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 558.5px;
+    }   
+}
+@media only screen and (min-device-width:701px) and (max-device-width:725px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 124.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 373px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 584px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 136.5px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 364.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 577.5px;
+    }   
+}
+@media only screen and (min-device-width:726px) and (max-device-width:750px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 130.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 385.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 602.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 141.5px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 377px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 596.5px;
+    }   
+}
+@media only screen and (min-device-width:751px) and (max-device-width:775px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 136.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 398.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 622.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 147px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 390.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 614.5px;
+    }   
+}
+
+@media only screen and (min-device-width:776px) and (max-device-width:800px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 142.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 410.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 639.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 153px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 401.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 632.5px;
+    }   
+}
+@media only screen and (min-device-width:800px) and (max-device-width:810px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 154.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 420.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 655.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 160.5px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 415.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 650.5px;
+    }   
+}
+@media only screen and (min-device-width:811px) and (max-device-width:825px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 154.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 425.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 660.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  418px;
+        left: 160.5px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 415.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 652.5px;
+    }   
+}
+@media only screen and (min-device-width:826px) and (max-device-width:850px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 110.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 342.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 538.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  338px;
+        left: 724.5px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 273.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 595.5px;
+    }   
+}
+@media only screen and (min-device-width:851px) and (max-device-width:875px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 118.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 355.5px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 555.5px;
+    }
+    .badge .pink_button h4::after{
+        top:  338px;
+        left: 744px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 283.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 610.5px;
+    }   
+}
+@media only screen and (min-device-width:876px) and (max-device-width:900px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 118.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 362px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 568px;
+    }
+    .badge .pink_button h4::after{
+        top:  338px;
+        left: 764px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 290.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 626px;
+    }   
+}
+@media only screen and (min-device-width:901px) and (max-device-width:925px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 123.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 372px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 584px;
+    }
+    .badge .pink_button h4::after{
+        top:  338px;
+        left: 783px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 300.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 646px;
+    }   
+}
+@media only screen and (min-device-width:926px) and (max-device-width:950px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 129.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 382px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 598px;
+    }
+    .badge .pink_button h4::after{
+        top:  338px;
+        left: 804px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 307.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 660px;
+    }   
+}
+@media only screen and (min-device-width:951px) and (max-device-width:975px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 134.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 392px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 613px;
+    }
+    .badge .pink_button h4::after{
+        top:  338px;
+        left: 823.5px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 314.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 677px;
+    }   
+}
+@media only screen and (min-device-width:976px) and (max-device-width:1000px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 138.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 402px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 630px;
+    }
+    .badge .pink_button h4::after{
+        top:  338px;
+        left: 844px;
+    }
+    .badge .green_button h4::after{
+        top:  418px;
+        left: 322.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 695px;
+    }   
+}
+@media only screen and (min-device-width:1001px) and (max-device-width:1024px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 0;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 113.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 333px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 518px;
+    }
+    .badge .pink_button h4::after{
+        top:  338px;
+        left: 691px;
+    }
+    .badge .green_button h4::after{
+        top:  338px;
+        left: 894.5px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 511.5px;
+    }   
+}
+
+@media only screen and (min-device-width:1025px) and (max-device-width:1050px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+    }
+    .badge div{
+        margin:1rem 0;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 116.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 341px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 528px;
+    }
+    .badge .pink_button h4::after{
+        top:  338px;
+        left: 707px;
+    }
+    .badge .green_button h4::after{
+        top:  338px;
+        left: 915px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 524px;
+    }   
+}
+
+@media only screen and (min-device-width:1050px) and (max-device-width:1070px){
+    .badge{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items:center;
+        text-align: center;
+    }
+    .badge div{
+        margin:1rem 0.1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 120.5px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 349px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 540px;
+    }
+    .badge .pink_button h4::after{
+        top:  338px;
+        left: 722px;
+    }
+    .badge .green_button h4::after{
+        top:  338px;
+        left: 935px;
+    }
+    .badge .red_button h4::after{
+        top:  418px;
+        left: 534.5px;
+    }   
+}
+
+@media only screen and (min-device-width:1071px) and (max-device-width:1100px){
+    .badge{
+        flex-wrap: wrap;
+    }
+    .badge div{
+        margin:1rem 0.1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 104px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 305px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 467px;
+    }
+    .badge .pink_button h4::after{
+        top:  338px;
+        left: 620px;
+    }
+    .badge .green_button h4::after{
+        top:  338px;
+        left: 804px;
+    }
+    .badge .red_button h4::after{
+        top:  338px;
+        left: 969px;
+    }   
+}
+
+@media only screen and (min-device-width:1101px) and (max-device-width:1200px){
+    .badge{
+        flex-wrap: wrap;
+    }
+    .badge div{
+        margin:1rem 0.1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 104px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 305px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 467px;
+    }
+    .badge .pink_button h4::after{
+        top:  338px;
+        left: 620px;
+    }
+    .badge .green_button h4::after{
+        top:  338px;
+        left: 804px;
+    }
+    .badge .red_button h4::after{
+        top:  338px;
+        left: 969px;
+    }   
+}
+
+@media only screen and (min-device-width:1201px) and (max-device-width:2000px){
+    .badge{
+        flex-wrap: wrap;
+    }
+    .badge div{
+        margin:1rem 0.1rem;
+    }
+    .badge .blue_button h4::after{
+        top:  338px;
+        left: 104px;
+    }
+    .badge .yellow_button h4::after{
+        top:  338px;
+        left: 305px;
+    }
+    .badge .gray_button h4::after{
+        top:  338px;
+        left: 467px;
+    }
+    .badge .pink_button h4::after{
+        top:  338px;
+        left: 620px;
+    }
+    .badge .green_button h4::after{
+        top:  338px;
+        left: 804px;
+    }
+    .badge .red_button h4::after{
+        top:  338px;
+        left: 969px;
+    }   
+}

@@ -1,0 +1,143 @@
+.comment{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+.comment .add_comment{
+    display: flex;
+    margin:1rem 0;
+}
+.comment .add_comment button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.7rem;
+    font-size: 1rem;
+    border-radius: 5px ;
+    color:#146f70;
+    background-color:#d6eeee; 
+    border:none;
+}
+.comment .add_comment button:hover{ 
+    color:white;
+    background-color:#009092;
+    transition: all 0.4s ease-in-out;
+}
+.comment .add_comment button p{
+    margin-left:0.4rem;
+    font-weight: 500;
+}
+.comment textarea{
+    margin:1rem 0;
+    align-items: flex-start;
+    font-size: 1rem;
+    color:#75787d;
+    padding:1rem;
+    width:100%;
+    border-radius:5px;
+    outline: none;
+    letter-spacing: 1px;
+}
+.comment textarea::placeholder{
+    color:#75787d;
+    font-size: 1rem;  
+}
+.comment .drop_files{
+    margin:1rem 0;
+    width:100%;
+    border-radius: 5px;
+    /* border:1px solid #75787d; */
+    padding:2.5rem;
+    outline-style:dashed;
+    outline-color:#75787d;
+}
+.comment .drop_files p{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+@media only screen and (max-device-width:280px){
+    .comment{
+        align-items: center;
+    }
+    .comment .drop_files{
+        padding:1rem;
+    } 
+    .comment .drop_files p{
+    font-size: 1rem;
+    }
+}
+
+@media only screen and (min-device-width:281px) and (max-device-width:320px){
+    .comment{
+        align-items: center;
+    }
+    .comment .drop_files{
+        padding:1rem;
+    } 
+    .comment .drop_files p{
+    font-size: 1rem;
+    }
+}
+
+@media only screen and (min-device-width:321px) and (max-device-width:414px){
+    .comment{
+        align-items: center;
+    }
+    .comment .drop_files{
+        padding:1rem;
+    } 
+    .comment .drop_files p{
+    font-size: 1rem;
+    }
+}
+@media only screen and (min-device-width:481px) and (max-device-width:640px){
+    .comment{
+        align-items: center;
+    }
+    .comment .drop_files{
+        padding:1rem;
+    } 
+    .comment .drop_files p{
+    font-size: 1rem;
+    }
+}
+
+@media only screen and (min-device-width:641px) and (max-device-width:812px){
+    .comment{
+        align-items: center;
+    }
+    .comment .drop_files{
+        padding:1rem;
+    } 
+    .comment .drop_files p{
+    font-size: 1rem;
+    }
+}
+
+@media only screen and (min-device-width:813px) and (max-device-width:1024px){
+    .comment{
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .comment .drop_files{
+        padding:1rem;
+    } 
+    .comment .drop_files p{
+    font-size: 1rem;
+    }
+}
+
+@media only screen and (min-device-width:1025px) and (max-device-width:1200px){
+    .comment{
+        justify-content:center;
+        align-items: flex-start;
+    }
+    .comment .drop_files{
+        padding:1rem;
+    } 
+    .comment .drop_files p{
+    font-size: 1rem;
+    }
+}

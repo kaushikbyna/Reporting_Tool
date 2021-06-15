@@ -1,0 +1,50 @@
+.note{
+    padding:1rem;
+    border-bottom: 1px solid #75787d;
+}
+@media only screen and (max-device-width:280px){
+    .note{
+        width:100%;
+        padding:1rem;
+        border-bottom: 1px solid #75787d;
+    }
+}
+
+@media only screen and (min-device-width:281px) and (max-device-width:320px){
+    .note{
+        width:100%;
+        padding:1rem;
+        border-bottom: 1px solid #75787d;
+    }
+}
+
+@media only screen and (min-device-width:321px) and (max-device-width:414px){
+    .note{
+        width:100%;
+        padding:1rem;
+        border-bottom: 1px solid #75787d;
+    }
+}
+@media only screen and (min-device-width:414px) and (max-device-width:640px){
+    .note{
+        width:100%;
+        padding:1rem;
+        border-bottom: 1px solid #75787d;
+    }
+}
+
+@media only screen and (min-device-width:641px) and (max-device-width:812px){
+    .note{
+        width:100%;
+        padding:1rem;
+        border-bottom: 1px solid #75787d;
+    }
+}
+
+@media only screen and (min-device-width:813px) and (max-device-width:1024px){
+    .note{
+        width:100%;
+        padding:1rem;
+        border-bottom: 1px solid #75787d;
+    }
+}

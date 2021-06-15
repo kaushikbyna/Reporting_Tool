@@ -1,0 +1,17 @@
+.react-date-picker, .react-date-picker *, .react-date-picker *:before, .react-date-picker *:after {
+    box-sizing: border-box;
+    width: 100%;
+}
+.react-date-picker, .react-date-picker *, 
+.react-date-picker *:before,
+ .react-date-picker *:after {
+     border-radius: 5px;
+     border-color: #ced4da;
+
+}
+.react-date-picker {
+    height:3.5rem;
+}
+.react-date-picker__inputGroup__input {
+    padding: 0;
+}

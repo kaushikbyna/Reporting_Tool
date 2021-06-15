@@ -1,0 +1,218 @@
+tr td:nth-child(2) a{
+  text-decoration: none !important;
+}
+tr td:nth-child(3) div{
+  display: flex;
+    justify-content: center;
+  align-items: center;
+}
+tr td:nth-child(3) div span{
+  align-items: center;
+}
+tr td:nth-child(2) p{
+    color:#009da0;
+    font-size:1rem;
+}
+.watch_icon{
+  visibility: hidden;
+}
+.watch_icon_saw{
+  visibility: visible;
+}
+.img_none{
+  display:none;
+}
+.img_view{
+  display:inline-block;
+}
+tr td:nth-child(9) div{
+  display: flex;
+  flex-direction: column;
+}
+.table tr td .MuiSelect-select.MuiSelect-select {
+  height:1.5rem;
+} 
+@media only screen and (max-device-width:280px){
+  tr td div{
+    text-align: center;
+    align-items: center;
+    /* padding-left:1rem; */
+  }
+  tr td:nth-child(4) div p {
+    margin:0.5rem ;
+    align-items: center;
+}
+.table tr td .MuiSelect-select.MuiSelect-select {
+  height:1.5rem;
+  width:4rem;
+}
+}
+@media only screen and (min-device-width:281px)and (max-device-width:320px){
+  tr td div{
+    text-align: center;
+    align-items: center;
+    /* padding-left:1rem; */
+  }
+  tr td:nth-child(4) div p {
+    margin:0.5rem ;
+    align-items: center;
+}
+
+tr td:nth-child(7) div{
+  display: flex;
+  width:6rem !important;
+  justify-content: center;
+}
+.table tr td .MuiSelect-select.MuiSelect-select {
+  height:1.5rem;
+  width:4rem;
+  text-decoration: none;
+  border: none;
+}
+}
+@media only screen and (min-device-width:321px) and (max-device-width:480px){
+  tr td div{
+    text-align: center;
+    align-items: center;
+    /* padding-left:1rem; */
+  }
+  tr td:nth-child(4) div p {
+    margin:0.5rem ;
+    align-items: center;
+}
+tr td:nth-child(7) div{
+  display: flex;
+  width:6rem;
+  justify-content: center;
+}
+tr td:nth-child(4) div{
+  width:10rem;
+}
+.table tr td .MuiSelect-select.MuiSelect-select {
+  height:1.5rem;
+  width:4rem;
+  text-decoration: none;
+  border: none;
+}
+}
+@media only screen and (min-device-width: 481px) and (max-device-width:640px){
+
+  tr td div{
+    text-align: center;
+    align-items: center;
+    /* padding-left:1rem; */
+  }
+  tr td:nth-child(4) div p {
+    align-items: center;
+}
+
+tr td:nth-child(7) div{
+  display: flex;
+  width:10rem;
+  justify-content: center;
+}
+tr td:nth-child(4) div{
+  width:10rem;
+}
+.table tr td .MuiSelect-select.MuiSelect-select {
+  height:1.5rem;
+  width:4rem;
+  text-decoration: none;
+  border: none;
+} 
+}
+
+@media only screen and (min-device-width: 641px) and (max-device-width:812px){
+  tr td div{
+    text-align: center;
+    align-items: center;
+    /* padding-left:1rem; */
+  }
+  tr td:nth-child(4) div p {
+    align-items: center;
+}
+tr td:nth-child(7) div{
+  display: flex;
+  width:10rem;
+  justify-content: center;
+}
+tr td:nth-child(4) div{
+  width:10rem;
+}
+.table tr td .MuiSelect-select.MuiSelect-select {
+  height:1.5rem;
+  width:4rem;
+} 
+}
+@media only screen and (min-device-width: 813px) and (max-device-width:1024px){
+  tr td div{
+    text-align: center;
+    align-items: center;
+    /* padding-left:1rem; */
+  }
+  tr td:nth-child(4) div p {
+    align-items: center;
+}
+tr td:nth-child(7) div{
+  display: flex;
+  width:10rem;
+  justify-content: center;
+}
+tr td:nth-child(4) div{
+  width:10rem;
+}
+.table tr td .MuiSelect-select.MuiSelect-select {
+  height:1.5rem;
+  width:auto;
+} 
+}
+
+@media only screen and (min-device-width: 1025px) and (max-device-width:1200px){
+  tr td div{
+    text-align: center;
+    align-items: center;
+    /* padding-left:1rem; */
+  }
+  tr td:nth-child(4) div p {
+    align-items: center;
+}
+tr td:nth-child(7) div{
+  display: flex;
+  width:10rem;
+  justify-content: center;
+}
+tr td:nth-child(4) div{
+  width:10rem;
+}
+.table tr td .MuiSelect-select.MuiSelect-select {
+  height:1.5rem;
+  /* width:4rem; */
+  text-decoration: none;
+  border: none;
+  outline: none;
+} 
+}
+
+@media only screen and (min-device-width: 1201px) and (max-device-width:2000px){
+  tr td div{
+    text-align: center;
+    align-items: center;
+    /* padding-left:1rem; */
+  }
+  tr td:nth-child(4) div p {
+    align-items: center;
+}
+tr td:nth-child(7) div{
+  display: flex;
+  width:10rem;
+  justify-content: center;
+}
+tr td:nth-child(4) div{
+  width:10rem;
+}
+.table tr td .MuiSelect-select.MuiSelect-select {
+  height:1.5rem;
+  width:auto;
+} 
+}
+
